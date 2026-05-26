@@ -1,0 +1,147 @@
+{
+  "categories": [
+    {
+      "id": "verbs",
+      "name": "动词训练",
+      "description": "高频动词全句型通关：变位、时态、状语、疑问句",
+      "icon": "verb",
+      "trainer": "verb-drill",
+      "units": [
+        {
+          "id": "sein",
+          "title": "sein",
+          "subtitle": "是 / 在",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "完全不规则",
+            "系动词",
+            "Präteritum"
+          ],
+          "sections": 6,
+          "exercises": 30
+        },
+        {
+          "id": "gehen",
+          "title": "gehen",
+          "subtitle": "走 / 去 / 行得通",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "sein 完成时",
+            "wohin",
+            "比喻义"
+          ],
+          "sections": 5,
+          "exercises": 39
+        },
+        {
+          "id": "geben",
+          "title": "geben",
+          "subtitle": "给 / es gibt 有",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "不规则动词",
+            "双宾语",
+            "es gibt"
+          ],
+          "sections": 8,
+          "exercises": 32
+        },
+        {
+          "id": "essen",
+          "title": "essen",
+          "subtitle": "吃",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "不规则动词",
+            "e→i 变音",
+            "gegessen"
+          ],
+          "sections": 6,
+          "exercises": 30
+        },
+        {
+          "id": "helfen",
+          "title": "helfen",
+          "subtitle": "帮助",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "不规则动词",
+            "第三格宾语",
+            "geholfen"
+          ],
+          "sections": 6,
+          "exercises": 32
+        },
+        {
+          "id": "warten",
+          "title": "warten",
+          "subtitle": "等待",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "规则动词",
+            "介词 auf",
+            "seit + 现在时"
+          ],
+          "sections": 5,
+          "exercises": 34
+        },
+        {
+          "id": "fahren",
+          "title": "fahren",
+          "subtitle": "乘坐 · 驾驶 · 前往",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "强变化动词",
+            "sein完成时"
+          ],
+          "sections": 7,
+          "exercises": 34
+        },
+        {
+          "id": "lesen",
+          "title": "lesen",
+          "subtitle": "阅读 / 读",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "强变化动词",
+            "元音变音"
+          ],
+          "sections": 6,
+          "exercises": 32
+        }
+      ]
+    },
+    {
+      "id": "prepositions",
+      "name": "介词训练",
+      "description": "支配格型介词：第三格、第四格、双向介词",
+      "icon": "preposition",
+      "trainer": "preposition-drill",
+      "units": []
+    },
+    {
+      "id": "structures",
+      "name": "句子结构训练",
+      "description": "句子框架：主从句、动词第二位、可分动词等",
+      "icon": "structure",
+      "trainer": "structure-drill",
+      "units": []
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>训练 · 德语训练平台</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:        #0D1117;
+  --surface:   #161B22;
+  --surface2:  #1C2330;
+  --accent:    #00C9A7;
+  --accent-dim:rgba(0,201,167,0.12);
+  --accent-mid:rgba(0,201,167,0.22);
+  --gold:      #58D5C8;
+  --text:      #E6EDF3;
+  --text-muted:#7D8590;
+  --text-dim:  #3D4654;
+  --border:    rgba(255,255,255,0.07);
+  --border-acc:rgba(0,201,167,0.22);
+  --card-q:    #131A1F;
+  --card-a:    #0A1A14;
+  --hint-bg:   #1C160A;
+  --hint-text: #D4A84B;
+  --note-bg:   #0C1525;
+  --note-text: #7EB8F7;
+  --ans-text:  #85E8CE;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body { background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; }
+
+/* ── TOPBAR ── */
+#topbar {
+  position: fixed; top: 0; left: 0; right: 0;
+  display: flex; flex-direction: column;
+  background: rgba(13,17,23,0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  z-index: 50;
+}
+/* 第一行：返回 + 标题 + 进度 */
+#topbar-row1 {
+  display: flex; align-items: center;
+  height: 44px; padding: 0 16px; gap: 10px;
+}
+/* 第二行：所有控件 */
+#topbar-row2 {
+  display: flex; align-items: center;
+  height: 36px; padding: 0 16px; gap: 8px;
+  border-top: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+#topbar-row2::-webkit-scrollbar { display: none; }
+
+.back-btn {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 12px; color: var(--text-muted);
+  text-decoration: none;
+  padding: 4px 8px; border-radius: 5px;
+  transition: color 0.15s, background 0.15s;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.back-btn:hover { color: var(--text); background: var(--surface); }
+.tb-sep { width: 1px; height: 16px; background: var(--border); flex-shrink: 0; }
+#unit-title-bar {
+  font-family: 'DM Serif Display', serif;
+  font-size: 15px; color: var(--accent);
+  flex-shrink: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+#unit-sub-bar {
+  font-size: 11px; color: var(--text-muted); font-style: italic;
+  flex-shrink: 1; white-space: nowrap; overflow: hidden;
+  text-overflow: ellipsis; min-width: 0;
+}
+
+select.tb-sel {
+  background: transparent; color: var(--text-muted);
+  border: 1px solid var(--border); border-radius: 5px;
+  padding: 3px 7px; font-size: 11px;
+  font-family: 'DM Sans', sans-serif; cursor: pointer;
+  flex-shrink: 0; white-space: nowrap;
+}
+select.tb-sel:hover { border-color: var(--accent); color: var(--text); }
+select.tb-sel option { background: #1C2330; }
+
+.tb-label-sm {
+  font-size: 11px; color: var(--text-muted);
+  flex-shrink: 0; white-space: nowrap;
+}
+.tb-toggle-group {
+  display: flex; border: 1px solid var(--border);
+  border-radius: 5px; overflow: hidden; flex-shrink: 0;
+}
+.tb-toggle {
+  background: transparent; color: var(--text-muted);
+  border: none; padding: 4px 9px;
+  font-size: 11px; font-family: 'DM Sans', sans-serif; cursor: pointer;
+  transition: background 0.15s, color 0.15s; white-space: nowrap;
+}
+.tb-toggle + .tb-toggle { border-left: 1px solid var(--border); }
+.tb-toggle.active { background: var(--accent-dim); color: var(--accent); }
+
+#prog-wrap { flex: 1; display: flex; align-items: center; gap: 8px; min-width: 60px; }
+#prog-track { flex: 1; height: 3px; background: var(--border); border-radius: 2px; min-width: 30px; }
+#prog-fill { height: 3px; background: var(--accent); border-radius: 2px; width: 0%; transition: width 0.4s; }
+#prog-text { font-size: 11px; color: var(--text-muted); white-space: nowrap; flex-shrink: 0; }
+
+/* ── STAGE ── */
+#stage {
+  width: 100vw; height: 100vh;
+  display: flex; flex-direction: column;
+  padding-top: 80px;
+}
+#card-area {
+  flex: 1;
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px 20px 72px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ── TRANSITIONS ── */
+.card-wrap {
+  width: min(720px, 92vw);
+  position: absolute;
+  transition: transform 0.36s cubic-bezier(0.4,0,0.2,1), opacity 0.36s;
+}
+.card-wrap.enter-r { transform: translateX(56px); opacity: 0; }
+.card-wrap.enter-l { transform: translateX(-56px); opacity: 0; }
+.card-wrap.active  { transform: translateX(0); opacity: 1; }
+.card-wrap.exit-l  { transform: translateX(-56px); opacity: 0; pointer-events: none; }
+.card-wrap.exit-r  { transform: translateX(56px); opacity: 0; pointer-events: none; }
+
+/* ── CARD BASE ── */
+.card {
+  border-radius: 16px;
+  padding: 32px 36px;
+  display: flex; flex-direction: column;
+  min-height: 280px;
+}
+@media (max-width: 500px) { .card { padding: 22px 20px; } }
+
+/* Cover */
+.card.c-cover {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  justify-content: center; gap: 10px;
+  overflow: hidden; position: relative;
+}
+.card.c-cover::after {
+  content:''; position:absolute; right:-60px; top:-60px;
+  width:260px; height:260px; border-radius:50%;
+  border:2px solid rgba(0,201,167,0.08); pointer-events:none;
+}
+.cv-badge {
+  display:inline-block; font-size:10px; color:var(--accent);
+  background:var(--accent-dim); padding:3px 10px; border-radius:20px;
+  letter-spacing:0.07em; margin-bottom:10px;
+}
+.cv-verb {
+  font-family:'DM Serif Display',serif;
+  font-size:clamp(56px,11vw,88px); color:var(--accent); line-height:1; margin-bottom:6px;
+}
+.cv-sub { font-size:clamp(15px,2.5vw,20px); color:var(--text); font-style:italic; margin-bottom:4px; }
+.cv-meta { font-size:12px; color:var(--text-muted); margin-bottom:20px; }
+.cv-hint {
+  font-size:12px; color:var(--text-muted);
+  border-top:1px solid var(--border); padding-top:14px; line-height:1.75;
+}
+.cv-hint strong { color:var(--text); }
+
+/* Section */
+.card.c-sec {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  gap: 12px;
+}
+.sec-label { font-size:10px; color:var(--accent); letter-spacing:0.09em; font-weight:500; }
+.sec-h {
+  font-family:'DM Serif Display',serif;
+  font-size:clamp(18px,2.8vw,24px); color:var(--text);
+}
+.gram-box {
+  background:#0D1117; border:1px solid var(--border-acc);
+  border-radius:8px; padding:12px 16px;
+}
+.gram-box .gl { font-size:10px; color:var(--accent); font-weight:500; letter-spacing:0.07em; margin-bottom:7px; }
+.gram-box .gt { font-size:12px; color:#9CA3AF; white-space:pre-line; line-height:1.75; }
+.ex-box {
+  background:#0A0D12; border:1px solid var(--border-acc);
+  border-radius:8px; padding:10px 16px;
+}
+.ex-box .el { font-size:10px; color:var(--gold); font-weight:500; letter-spacing:0.07em; margin-bottom:5px; }
+.ex-box .ec { font-size:12px; color:var(--text-muted); margin-bottom:4px; }
+.ex-box .ed { font-family:'DM Serif Display',serif; font-size:15px; color:var(--gold); }
+
+/* Question */
+.card.c-q {
+  background: var(--card-q);
+  border: 1px solid rgba(0,201,167,0.1);
+  justify-content: space-between; min-height:320px;
+}
+.q-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; }
+.q-badge {
+  font-size:10px; color:var(--accent);
+  background:var(--accent-dim); padding:3px 10px; border-radius:20px;
+}
+.q-num-label { font-size:11px; color:var(--text-dim); }
+.q-prompt { font-size:11px; color:var(--text-muted); margin-bottom:14px; }
+.q-text {
+  font-size:clamp(20px,3.2vw,28px); font-weight:500;
+  color:var(--text); line-height:1.5;
+  flex:1; display:flex; align-items:center;
+}
+.hint-row {
+  margin-top:14px;
+  background:var(--hint-bg); border:1px solid rgba(212,168,75,0.2);
+  border-radius:7px; padding:7px 12px;
+  font-size:12px; color:var(--hint-text);
+}
+.q-cue { margin-top:14px; font-size:11px; color:var(--text-dim); text-align:center; font-style:italic; }
+
+/* Answer */
+.card.c-a {
+  background: var(--card-a);
+  border: 1px solid rgba(0,201,167,0.22);
+  border-left: 4px solid var(--accent);
+  justify-content: space-between; min-height:320px;
+}
+.a-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
+.a-badge {
+  font-size:10px; color:var(--accent);
+  background:rgba(0,201,167,0.1); padding:3px 10px; border-radius:20px;
+}
+.a-ref { font-size:12px; color:var(--text-muted); font-style:italic; margin-bottom:12px; line-height:1.5; }
+.a-text {
+  font-family:'DM Serif Display',serif;
+  font-size:clamp(18px,2.8vw,26px); color:var(--ans-text);
+  line-height:1.55; flex:1; display:flex; align-items:center;
+}
+.note-row {
+  margin-top:12px;
+  background:var(--note-bg); border:1px solid rgba(126,184,247,0.15);
+  border-radius:7px; padding:7px 12px;
+  font-size:11px; color:var(--note-text);
+}
+.tts-row {
+  margin-top:12px; padding-top:12px;
+  border-top:1px solid var(--border);
+  display:flex; align-items:center; gap:10px;
+}
+.replay-btn {
+  background:transparent; border:1px solid var(--border-acc);
+  border-radius:20px; padding:4px 14px;
+  font-size:11px; color:var(--accent); cursor:pointer;
+  font-family:'DM Sans',sans-serif;
+  transition:background 0.15s;
+  display:flex; align-items:center; gap:5px;
+}
+.replay-btn:hover { background:var(--accent-dim); }
+.tts-st { font-size:11px; color:var(--text-dim); font-style:italic; }
+.wave { display:inline-flex; align-items:center; gap:2px; }
+.wave span { display:inline-block; width:3px; height:9px; background:var(--accent); border-radius:2px; animation:wa 0.8s ease-in-out infinite; }
+.wave span:nth-child(2){animation-delay:0.15s} .wave span:nth-child(3){animation-delay:0.3s}
+@keyframes wa{0%,100%{transform:scaleY(0.35)}50%{transform:scaleY(1.2)}}
+
+/* Finish */
+.card.c-finish {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  align-items:center; justify-content:center;
+  text-align:center; gap:14px; min-height:320px;
+}
+.fin-trophy { font-size:48px; }
+.fin-title { font-family:'DM Serif Display',serif; font-size:32px; color:var(--text); }
+.fin-de { font-size:12px; color:var(--text-muted); font-style:italic; }
+.fin-quote {
+  background:#0A0D12; border:1px solid var(--border-acc);
+  border-radius:10px; padding:18px 24px;
+  font-family:'DM Serif Display',serif;
+  font-size:15px; color:var(--gold); font-style:italic; line-height:1.7;
+  max-width:480px;
+}
+.fin-quote .fqcn { font-family:'DM Sans',sans-serif; font-size:11px; color:var(--text-muted); margin-top:6px; font-style:normal; }
+.home-btn {
+  background:var(--accent-dim); border:1px solid var(--border-acc);
+  border-radius:8px; padding:10px 24px;
+  font-size:13px; color:var(--accent); cursor:pointer;
+  font-family:'DM Sans',sans-serif; font-weight:500;
+  text-decoration:none; transition:background 0.15s;
+}
+.home-btn:hover { background:var(--accent-mid); }
+
+/* Loading / error */
+.card.c-loading {
+  background:var(--surface); border:1px solid var(--border);
+  align-items:center; justify-content:center; min-height:260px;
+  color:var(--text-muted); font-size:14px; gap:12px;
+}
+
+/* ── BOTTOM NAV ── */
+#bottomnav {
+  position:fixed; bottom:0; left:0; right:0; height:64px;
+  display:flex; align-items:center; justify-content:center; gap:14px;
+  background:rgba(13,17,23,0.92); backdrop-filter:blur(10px);
+  border-top:1px solid var(--border); z-index:50; padding:0 20px;
+}
+.nav-btn {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:9px; padding:9px 24px;
+  font-size:13px; font-family:'DM Sans',sans-serif; color:var(--text);
+  cursor:pointer; transition:background 0.15s, border-color 0.15s, transform 0.1s;
+  display:flex; align-items:center; gap:7px;
+}
+.nav-btn:hover:not(:disabled) { background:var(--surface2); border-color:var(--border-acc); }
+.nav-btn:active:not(:disabled) { transform:scale(0.97); }
+.nav-btn:disabled { opacity:0.28; cursor:not-allowed; }
+.nav-btn.primary { background:var(--accent-dim); border-color:var(--border-acc); color:var(--accent); font-weight:500; }
+.nav-btn.primary:hover { background:var(--accent-mid); }
+.slide-ct { font-size:12px; color:var(--text-muted); min-width:72px; text-align:center; font-variant-numeric:tabular-nums; }
+
+#kbd-hint { position:fixed; bottom:72px; right:20px; font-size:10px; color:var(--text-dim); }
+
+#voice-toast {
+  position:fixed; bottom:74px; left:50%; transform:translateX(-50%);
+  background:#2D1A0A; border:1px solid rgba(212,168,75,0.35);
+  border-radius:8px; padding:9px 16px; font-size:12px; color:var(--hint-text);
+  white-space:nowrap; z-index:60; opacity:0; transition:opacity 0.3s; pointer-events:none;
+}
+#voice-toast.show { opacity:1; }
+</style>
+</head>
+<body>
+
+<div id="topbar">
+  <!-- 第一行：返回 + 标题 + 进度 -->
+  <div id="topbar-row1">
+    <a class="back-btn" href="index.html">← 返回</a>
+    <div class="tb-sep"></div>
+    <span id="unit-title-bar">…</span>
+    <span id="unit-sub-bar"></span>
+    <div id="prog-wrap" style="margin-left:auto">
+      <div id="prog-track"><div id="prog-fill"></div></div>
+      <span id="prog-text">0 / 0</span>
+    </div>
+  </div>
+  <!-- 第二行：所有控件（可横向滚动） -->
+  <div id="topbar-row2">
+    <span class="tb-label-sm">朗读</span>
+    <select class="tb-sel" id="sel-mode">
+      <option value="once">1遍</option>
+      <option value="twice_slow">2遍（第2遍慢速）</option>
+      <option value="twice">2遍（同速）</option>
+      <option value="loop">循环</option>
+    </select>
+    <div class="tb-sep"></div>
+    <span class="tb-label-sm">语速</span>
+    <select class="tb-sel" id="sel-rate">
+      <option value="0.75">慢 0.75×</option>
+      <option value="1" selected>正常 1×</option>
+      <option value="1.2">快 1.2×</option>
+    </select>
+    <div class="tb-sep"></div>
+    <div class="tb-toggle-group">
+      <button class="tb-toggle" id="btn-with-sec">含说明</button>
+      <button class="tb-toggle active" id="btn-no-sec">仅练习</button>
+    </div>
+  </div>
+</div>
+
+<div id="stage">
+  <div id="card-area">
+    <div class="card-wrap active">
+      <div class="card c-loading">加载中…</div>
+    </div>
+  </div>
+</div>
+
+<div id="bottomnav">
+  <button class="nav-btn" id="btn-prev" disabled>← 上一页</button>
+  <span class="slide-ct" id="slide-ct">— / —</span>
+  <button class="nav-btn primary" id="btn-next">下一页 →</button>
+</div>
+
+<div id="kbd-hint">← → 方向键 / 空格翻页</div>
+<div id="voice-toast">⚠ 未检测到德语语音，请在系统设置安装「德语(德国)」语音包</div>
+
+<script>
+// ── URL params ──
+const params = new URLSearchParams(location.search);
+const CATEGORY = params.get('category') || 'verbs';
+const UNIT_ID  = params.get('unit') || 'geben';
+const DATA_URL = `data/${CATEGORY}/${UNIT_ID}.json`;
+
+// ── State ──
+let unitData = null;
+let slides = [];
+let cur = 0;
+let showSec = false;
+let autoPlayed = new Set();
+
+const TOTAL_EX = () => unitData
+  ? unitData.sections.reduce((s, sec) => s + sec.exercises.length, 0)
+  : 0;
+
+// ── Load ──
+async function loadUnit() {
+  try {
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error('not found');
+    unitData = await res.json();
+  } catch(e) {
+    showError(); return;
+  }
+  document.title = `${unitData.title} · 德语训练平台`;
+  document.getElementById('unit-title-bar').textContent = unitData.title;
+  document.getElementById('unit-sub-bar').textContent = unitData.subtitle || '';
+  buildSlides();
+  renderSlide(0, 0);
+}
+
+function showError() {
+  document.getElementById('card-area').innerHTML = `
+    <div class="card-wrap active">
+      <div class="card c-loading">
+        ⚠ 无法加载训练内容<br>
+        <a href="index.html" style="color:var(--accent);font-size:13px;margin-top:10px;display:inline-block">← 返回首页</a>
+      </div>
+    </div>`;
+}
+
+// ── Build slide list ──
+function buildSlides() {
+  slides = [{ type:'cover' }];
+  unitData.sections.forEach(sec => {
+    if (showSec) slides.push({ type:'sec', sec });
+    sec.exercises.forEach((ex, i) => {
+      const exIdx = slides.filter(s => s.type === 'q').length + 1;
+      slides.push({ type:'q', sec, ex, exIdx: getGlobalExIdx(sec, i) });
+      slides.push({ type:'a', sec, ex, exIdx: getGlobalExIdx(sec, i) });
+    });
+  });
+  slides.push({ type:'finish' });
+}
+
+function getGlobalExIdx(targetSec, targetI) {
+  let idx = 0;
+  for (const sec of unitData.sections) {
+    for (let i = 0; i < sec.exercises.length; i++) {
+      idx++;
+      if (sec === targetSec && i === targetI) return idx;
+    }
+  }
+  return idx;
+}
+
+// ── TTS ──
+const synth = window.speechSynthesis;
+let deVoice = null;
+let loopTimer = null;
+
+function loadVoices() {
+  const vs = synth.getVoices();
+  deVoice = vs.find(v => v.lang === 'de-DE') || vs.find(v => v.lang.startsWith('de')) || null;
+}
+loadVoices();
+if (synth.onvoiceschanged !== undefined) synth.onvoiceschanged = loadVoices;
+
+function stopAll() {
+  synth.cancel();
+  if (loopTimer) { clearTimeout(loopTimer); loopTimer = null; }
+}
+
+function speak(text, rate, onEnd) {
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'de-DE'; u.rate = rate;
+  if (deVoice) u.voice = deVoice;
+  if (onEnd) u.onend = onEnd;
+  synth.speak(u);
+}
+
+function playAnswer(text, auto) {
+  if (!deVoice && auto) showToast();
+  const mode = document.getElementById('sel-mode').value;
+  const rate = parseFloat(document.getElementById('sel-rate').value);
+  stopAll();
+  setTtsSt('wave');
+  if (mode === 'once') {
+    speak(text, rate, () => setTtsSt(''));
+  } else if (mode === 'twice') {
+    speak(text, rate, () => { loopTimer = setTimeout(() => speak(text, rate, () => setTtsSt('')), 600); });
+  } else if (mode === 'twice_slow') {
+    speak(text, rate, () => {
+      setTtsSt('slow');
+      loopTimer = setTimeout(() => speak(text, Math.max(0.45, rate * 0.65), () => setTtsSt('')), 700);
+    });
+  } else if (mode === 'loop') {
+    function loop() { setTtsSt('wave'); speak(text, rate, () => { loopTimer = setTimeout(loop, 1100); }); }
+    loop();
+  }
+}
+
+function setTtsSt(s) {
+  const el = document.getElementById('tts-st');
+  if (!el) return;
+  if (s === 'wave') el.innerHTML = '<span class="wave"><span></span><span></span><span></span></span> 朗读中…';
+  else if (s === 'slow') el.innerHTML = '<span class="wave"><span></span><span></span><span></span></span> 慢速…';
+  else el.innerHTML = '';
+}
+
+function showToast() {
+  const t = document.getElementById('voice-toast');
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 5000);
+}
+
+// ── HTML builders ──
+function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,'<br>'); }
+
+function buildSlideHTML(sl) {
+  if (sl.type === 'cover') {
+    const u = unitData;
+    const total = TOTAL_EX();
+    return `<div class="card c-cover">
+      <div class="cv-badge">🇩🇪 德语口语训练 · ${u.level.join(' / ')}</div>
+      <div class="cv-verb">${esc(u.title)}</div>
+      <div class="cv-sub">${esc(u.subtitle || '')}</div>
+      <div class="cv-meta">${u.meta.totalSections} 大句型 · ${total} 道练习 · 答案自动朗读</div>
+      <div class="cv-hint">
+        <strong>使用方法：</strong>点击「下一页」或按 <kbd style="background:var(--surface2);border:1px solid var(--border);border-radius:3px;padding:1px 5px;font-size:10px">→</kbd> 翻页。<br>
+        看到题目先开口说德语，翻到答案页时<strong>自动朗读</strong>。<br>
+        顶部可切换朗读模式、语速和是否显示语法说明。
+      </div>
+    </div>`;
+  }
+  if (sl.type === 'sec') {
+    const s = sl.sec;
+    return `<div class="card c-sec">
+      <div class="sec-label">句型 ${s.num}</div>
+      <div class="sec-h">${esc(s.title)}</div>
+      <div class="gram-box"><div class="gl">📖 语法说明</div><div class="gt">${esc(s.grammar)}</div></div>
+      <div class="ex-box"><div class="el">💡 样例</div><div class="ec">${esc(s.exCN)}</div><div class="ed">${esc(s.exDE)}</div></div>
+    </div>`;
+  }
+  if (sl.type === 'q') {
+    const {sec, ex, exIdx} = sl;
+    return `<div class="card c-q">
+      <div class="q-top">
+        <span class="q-badge">句型 ${sec.num}</span>
+        <span class="q-num-label">练习 ${exIdx} / ${TOTAL_EX()}</span>
+      </div>
+      <div class="q-prompt">请翻译成德语并大声说出来：</div>
+      <div class="q-text">${esc(ex.q)}</div>
+      ${ex.hint ? `<div class="hint-row">💡 提示：${esc(ex.hint)}</div>` : ''}
+      <div class="q-cue">翻到下一页查看答案 →</div>
+    </div>`;
+  }
+  if (sl.type === 'a') {
+    const {sec, ex, exIdx} = sl;
+    return `<div class="card c-a">
+      <div class="a-top">
+        <span class="a-badge">✅ 答案</span>
+        <span class="q-num-label">练习 ${exIdx} / ${TOTAL_EX()}</span>
+      </div>
+      <div class="a-ref">${esc(ex.q.replace(/\n/g,' '))}</div>
+      <div class="a-text">${esc(ex.a)}</div>
+      ${ex.note ? `<div class="note-row">📝 ${esc(ex.note)}</div>` : ''}
+      <div class="tts-row">
+        <button class="replay-btn" onclick="replayNow()">🔊 重新朗读</button>
+        <span class="tts-st" id="tts-st"></span>
+      </div>
+    </div>`;
+  }
+  if (sl.type === 'finish') {
+    return `<div class="card c-finish">
+      <div class="fin-trophy">🎉</div>
+      <div class="fin-title">训练完成！</div>
+      <div class="fin-de">Glückwunsch! Du hast alle ${TOTAL_EX()} Übungen abgeschlossen!</div>
+      <div class="fin-quote">
+        Es gibt vieles im Leben zu geben — fang heute damit an.
+        <div class="fqcn">生活中有许多值得给予的事情——从今天开始吧。</div>
+      </div>
+      <a class="home-btn" href="index.html">← 返回训练列表</a>
+    </div>`;
+  }
+  return '';
+}
+
+// ── Navigation ──
+function renderSlide(idx, dir) {
+  stopAll();
+  const area = document.getElementById('card-area');
+  const oldWrap = area.querySelector('.card-wrap.active');
+  const newWrap = document.createElement('div');
+  newWrap.className = 'card-wrap ' + (dir >= 0 ? 'enter-r' : 'enter-l');
+  newWrap.innerHTML = buildSlideHTML(slides[idx]);
+  area.appendChild(newWrap);
+
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if (oldWrap) oldWrap.className = 'card-wrap ' + (dir >= 0 ? 'exit-l' : 'exit-r');
+    newWrap.className = 'card-wrap active';
+    setTimeout(() => { if (oldWrap) oldWrap.remove(); }, 400);
+  }));
+
+  cur = idx;
+  updateUI();
+
+  const sl = slides[idx];
+  if (sl.type === 'a' && !autoPlayed.has(idx)) {
+    autoPlayed.add(idx);
+    setTimeout(() => playAnswer(sl.ex.a, true), 380);
+  }
+}
+
+function countAnsweredSoFar() {
+  let n = 0;
+  for (let i = 0; i <= cur; i++) if (slides[i] && slides[i].type === 'a') n++;
+  return n;
+}
+
+function updateUI() {
+  const total = slides.length;
+  document.getElementById('slide-ct').textContent = `${cur + 1} / ${total}`;
+  document.getElementById('btn-prev').disabled = cur === 0;
+  document.getElementById('btn-next').disabled = cur === total - 1;
+  const done = countAnsweredSoFar();
+  const tex = TOTAL_EX();
+  document.getElementById('prog-fill').style.width = tex > 0 ? (done / tex * 100) + '%' : '0%';
+  document.getElementById('prog-text').textContent = `${done} / ${tex}`;
+}
+
+function next() { if (cur < slides.length - 1) renderSlide(cur + 1, 1); }
+function prev() { if (cur > 0) renderSlide(cur - 1, -1); }
+function replayNow() { const sl = slides[cur]; if (sl && sl.type === 'a') playAnswer(sl.ex.a, false); }
+
+document.getElementById('btn-next').addEventListener('click', next);
+document.getElementById('btn-prev').addEventListener('click', prev);
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
+  if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+});
+let tx = 0;
+document.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+document.addEventListener('touchend', e => {
+  const dx = e.changedTouches[0].clientX - tx;
+  if (Math.abs(dx) > 50) dx < 0 ? next() : prev();
+}, { passive: true });
+
+// ── Toolbar ──
+function rebuild() {
+  stopAll(); autoPlayed.clear(); buildSlides();
+  cur = 0;
+  const area = document.getElementById('card-area');
+  area.innerHTML = '';
+  const w = document.createElement('div');
+  w.className = 'card-wrap active';
+  w.innerHTML = buildSlideHTML(slides[0]);
+  area.appendChild(w);
+  updateUI();
+}
+
+document.getElementById('btn-with-sec').addEventListener('click', () => {
+  if (showSec) return;
+  showSec = true;
+  document.getElementById('btn-with-sec').classList.add('active');
+  document.getElementById('btn-no-sec').classList.remove('active');
+  rebuild();
+});
+document.getElementById('btn-no-sec').addEventListener('click', () => {
+  if (!showSec) return;
+  showSec = false;
+  document.getElementById('btn-no-sec').classList.add('active');
+  document.getElementById('btn-with-sec').classList.remove('active');
+  rebuild();
+});
+
+loadUnit();
+</script>
+</body>
+</html>

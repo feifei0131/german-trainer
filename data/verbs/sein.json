@@ -1,0 +1,97 @@
+{
+  "id": "sein",
+  "title": "sein",
+  "subtitle": "是 / 在",
+  "category": "verbs",
+  "level": ["A1"],
+  "tags": ["完全不规则", "系动词", "Präteritum"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 30
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位与基础陈述句",
+      "grammar": "sein 是德语唯一完全不规则的动词，变位必须熟记：\nich bin / du bist / er-sie-es ist / wir sind / ihr seid / sie-Sie sind\n⚠️ 口语中第三人称 ist 词尾的 t 常被吞音省略。\n用途：表达「是什么」「在何处」「是谁」",
+      "exCN": "我累了。／我在柏林。",
+      "exDE": "Ich bin müde.  /  Ich bin in Berlin.",
+      "exercises": [
+        { "q": "我是，你是，他是。", "hint": null, "a": "Ich bin, du bist, er ist.", "note": null },
+        { "q": "我们是，你们是，他们是。", "hint": null, "a": "Wir sind, ihr seid, sie sind.", "note": null },
+        { "q": "你非常可爱。", "hint": "可爱 = süß", "a": "Du bist sehr süß.", "note": null },
+        { "q": "托马斯现在在公园里。", "hint": "现在（此刻）= gerade", "a": "Thomas ist gerade im Park.", "note": "gerade 放在地点前" },
+        { "q": "我们在地铁里。", "hint": "地铁 = die U-Bahn", "a": "Wir sind in der U-Bahn.", "note": null },
+        { "q": "你的狗非常可爱。", "hint": "你的狗 = deine Hunde（复数）", "a": "Deine Hunde sind sehr süß.", "note": null }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "现在时疑问句",
+      "grammar": "疑问句直接把 sein 变位移至句首，结构与英语相同。\n⚠️ 避坑：德语没有现在进行时！\n不能用 sein 接其他动词：\n✗ Bist du Deutsch lernend?\n✓ Lernst du Deutsch?\nsein 只用于「是什么 / 在何处 / 是谁」。",
+      "exCN": "你在派对上吗？",
+      "exDE": "Bist du bei der Party?",
+      "exercises": [
+        { "q": "你累了吗？", "hint": null, "a": "Bist du müde?", "note": null },
+        { "q": "托马斯在公园里吗？", "hint": null, "a": "Ist Thomas im Park?", "note": null },
+        { "q": "托马斯从什么时候起在公园里？", "hint": "从什么时候起 = seit wann", "a": "Seit wann ist Thomas im Park?", "note": null },
+        { "q": "我在哪里？", "hint": null, "a": "Wo bin ich?", "note": null },
+        { "q": "为什么我们不在公园里？", "hint": null, "a": "Warum sind wir nicht im Park?", "note": null }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "过去时（Präteritum）",
+      "grammar": "sein 是少数在日常口语中直接使用过去时（Präteritum）的常用动词，不用 Perfekt。\n变位：ich war / du warst / er-sie-es war / wir waren / ihr wart / sie-Sie waren\n💡 发音：词尾的 r 不需要发音，把 a 的音拉长即可。",
+      "exCN": "我曾在柏林。／我们曾是，你们曾是，他们曾是。",
+      "exDE": "Ich war in Berlin.  /  Wir waren, ihr wart, sie waren.",
+      "exercises": [
+        { "q": "我上周在柏林。", "hint": "上周 = letzte Woche", "a": "Ich war letzte Woche in Berlin.", "note": "时间状语放在地点前" },
+        { "q": "托马斯昨天非常累。", "hint": null, "a": "Thomas war gestern sehr müde.", "note": null },
+        { "q": "昨天，托马斯非常累。", "hint": "Gestern 放句首，动词第二位", "a": "Gestern war Thomas sehr müde.", "note": "句首状语 → 动词第二位，主语后移" },
+        { "q": "昨天玛丽亚在公园里待到了11点。", "hint": "待到 = bis um 11", "a": "Gestern war Maria bis um 11 im Park.", "note": null },
+        { "q": "我们也在公园里待到了11点。", "hint": "也 = auch", "a": "Wir waren auch bis um 11 im Park.", "note": null },
+        { "q": "你的狗以前非常吵。", "hint": "吵 = laut", "a": "Deine Hunde waren sehr laut.", "note": null }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "过去时疑问句",
+      "grammar": "过去时疑问句结构与现在时一致，直接把 war 系列变位移至句首。\n⚠️ war 提问时同样遵守「动词第一位」规则。",
+      "exCN": "你（当时）非常累吗？",
+      "exDE": "Warst du sehr müde?",
+      "exercises": [
+        { "q": "你最喜欢的场景是什么？", "hint": "最喜欢的场景 = Lieblingsszene", "a": "Was war deine Lieblingsszene?", "note": null },
+        { "q": "昨晚你在哪里？", "hint": "昨晚 = gestern Abend", "a": "Wo warst du gestern Abend?", "note": null },
+        { "q": "为什么托马斯昨晚那么生气？", "hint": "生气 = sauer", "a": "Warum war Thomas gestern so sauer?", "note": null }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "附加用法：「是我」Ich bin's",
+      "grammar": "英语说 It is me，但德语不能说 Es ist ich！\n德语以实际主体（人）主导句子：\n正确：Ich bin es → 口语缩读：Ich bin's\n其他人称类推：Du bist es → Du bist's / Wir sind es",
+      "exCN": "那是我们。",
+      "exDE": "Wir sind es.",
+      "exercises": [
+        { "q": "是你吗？", "hint": "缩读口语形式", "a": "Bist du's?", "note": null },
+        { "q": "是的，是我。", "hint": null, "a": "Ja, ich bin's.", "note": null }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "特殊用法：感觉表达（第三格）",
+      "grammar": "表达「我感觉冷 / 热 / 无聊」时，德语不说 Ich bin kalt！\n必须用第三格代词（Dativ），字面意思「对我来说它是……」：\n  Mir ist kalt.（我感觉冷。）\n常用第三格代词：mir / dir / ihm / ihr / uns / euch\n过去时：Mir war kalt.",
+      "exCN": "我感觉冷。／你冷吗？",
+      "exDE": "Mir ist kalt.  /  Ist dir kalt?",
+      "exercises": [
+        { "q": "晚上我总是很冷。", "hint": "晚上总是 = abends immer", "a": "Mir ist abends immer kalt.", "note": null },
+        { "q": "你冷吗？", "hint": null, "a": "Ist dir kalt?", "note": null },
+        { "q": "为什么你觉得无聊？", "hint": "无聊 = langweilig", "a": "Warum ist dir langweilig?", "note": null },
+        { "q": "过去时：我今天感觉非常冷。", "hint": null, "a": "Mir war heute sehr kalt.", "note": "感觉表达过去时：war 替换 ist" },
+        { "q": "过去时：我在会议上感到非常无聊。", "hint": "在会议上 = beim Meeting", "a": "Mir war beim Meeting sehr langweilig.", "note": null },
+        { "q": "过去时：你感觉非常冷吗？", "hint": null, "a": "War dir sehr kalt?", "note": null }
+      ]
+    }
+  ]
+}
