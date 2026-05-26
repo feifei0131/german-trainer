@@ -124,6 +124,32 @@
           ],
           "sections": 6,
           "exercises": 32
+        },
+        {
+          "id": "nehmen",
+          "title": "nehmen",
+          "subtitle": "拿 / 取 / 乘坐",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "不规则动词"
+          ],
+          "sections": 6,
+          "exercises": 30
+        },
+        {
+          "id": "mitnehmen",
+          "title": "mitnehmen",
+          "subtitle": "带走 / 随身携带 / 顺带",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词"
+          ],
+          "sections": 6,
+          "exercises": 30
         }
       ]
     },
