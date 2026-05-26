@@ -478,11 +478,14 @@ function renderStats() {
   `;
 }
 
-// 收集某个类别的所有 tags（用于动态生成内部筛选栏）
+// 每个类别的固定分类筛选 tag（只显示分类级别的，不显示描述性 tag）
+const CAT_FILTER_TAGS = {
+  verbs: ['不规则动词', '规则动词', '可分动词', '系动词', '情态动词'],
+  // 其他类别将来在这里添加，没有配置的类别不显示内部筛选栏
+};
+
 function getTagsForCat(cat) {
-  const tags = new Set();
-  cat.units.forEach(u => (u.tags || []).forEach(t => tags.add(t)));
-  return [...tags];
+  return CAT_FILTER_TAGS[cat.id] || [];
 }
 
 function renderCategories() {
