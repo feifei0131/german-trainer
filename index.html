@@ -140,6 +140,43 @@ header nav a:hover { color: var(--text); background: var(--surface); }
   color: var(--accent);
 }
 
+/* ── 全局大类筛选 chip（金色系，区别级别筛选） ── */
+.chip.cat-chip:hover { border-color: var(--gold); color: var(--text); }
+.chip.cat-chip.active {
+  background: rgba(88,213,200,0.10);
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* ── 类别内部 tag 筛选栏 ── */
+.cat-tag-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  background: var(--surface3);
+  border-radius: 8px;
+}
+.cat-tag-label {
+  font-size: 11px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  font-weight: 500;
+}
+.cat-tag-chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip.inner-chip {
+  font-size: 11px;
+  padding: 3px 11px;
+}
+.chip.inner-chip:hover { border-color: var(--accent); color: var(--text); }
+.chip.inner-chip.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ── STATS BAR ── */
 .stats-bar {
   padding: 20px clamp(20px, 5vw, 60px) 0;
@@ -363,6 +400,15 @@ footer .logo-sm {
     <button class="chip" data-level="B2">B2</button>
   </div>
 </div>
+<div class="filter-section" style="padding-top: 10px;">
+  <span class="filter-label">按类别筛选</span>
+  <div class="filter-chips" id="cat-chips">
+    <button class="chip cat-chip active" data-cat="all">全部</button>
+    <button class="chip cat-chip" data-cat="verbs">动词训练</button>
+    <button class="chip cat-chip" data-cat="prepositions">介词训练</button>
+    <button class="chip cat-chip" data-cat="structures">句子结构</button>
+  </div>
+</div>
 
 <div class="stats-bar" id="stats-bar">
   <!-- filled by JS -->
@@ -389,27 +435,27 @@ const CAT_ICONS = {
   structure:   '🧩',
 };
 
-let catalog = null;
-let activeLevel = 'all';
+let catalog   = null;
+let activeLevel = 'all';   // 全局：按级别
+let activeCat   = 'all';   // 全局：按大类
+// 每个类别有自己的内部 tag 状态，key = cat.id
+const activeInnerTag = {};
 
 async function loadCatalog() {
   try {
     const res = await fetch(CATALOG_URL);
     catalog = await res.json();
   } catch(e) {
-    // fallback for local file:// usage
     catalog = FALLBACK_CATALOG;
   }
+  // 初始化每个类别的内部 tag 状态
+  catalog.categories.forEach(cat => { activeInnerTag[cat.id] = 'all'; });
   render();
 }
 
-function totalUnits(level) {
+function totalUnits() {
   if (!catalog) return 0;
-  return catalog.categories.reduce((s, cat) => {
-    return s + cat.units.filter(u =>
-      level === 'all' || u.level.includes(level)
-    ).length;
-  }, 0);
+  return catalog.categories.reduce((s, cat) => s + cat.units.length, 0);
 }
 
 function render() {
@@ -420,8 +466,8 @@ function render() {
 function renderStats() {
   const bar = document.getElementById('stats-bar');
   const totalCats = catalog.categories.length;
-  const totalU = totalUnits('all');
-  const totalEx = catalog.categories.reduce((s, cat) =>
+  const totalU    = totalUnits();
+  const totalEx   = catalog.categories.reduce((s, cat) =>
     s + cat.units.reduce((ss, u) => ss + (u.exercises || 0), 0), 0);
   bar.innerHTML = `
     <div class="stat"><span class="stat-num">${totalCats}</span><span class="stat-label">训练类别</span></div>
@@ -432,27 +478,54 @@ function renderStats() {
   `;
 }
 
+// 收集某个类别的所有 tags（用于动态生成内部筛选栏）
+function getTagsForCat(cat) {
+  const tags = new Set();
+  cat.units.forEach(u => (u.tags || []).forEach(t => tags.add(t)));
+  return [...tags];
+}
+
 function renderCategories() {
-  const content = document.getElementById('content');
+  const content   = document.getElementById('content');
   const noResults = document.getElementById('no-results');
   content.innerHTML = '';
-  let anyVisible = false;
+  let anyVisible  = false;
 
   catalog.categories.forEach(cat => {
-    const filtered = activeLevel === 'all'
-      ? cat.units
-      : cat.units.filter(u => u.level.includes(activeLevel));
+    // 全局大类筛选
+    if (activeCat !== 'all' && cat.id !== activeCat) return;
+
+    // 该类别内单元先按级别过滤
+    const levelFiltered = cat.units.filter(u =>
+      activeLevel === 'all' || u.level.includes(activeLevel)
+    );
+
+    // 再按类别内部 tag 过滤
+    const innerTag = activeInnerTag[cat.id] || 'all';
+    const filtered = innerTag === 'all'
+      ? levelFiltered
+      : levelFiltered.filter(u => u.tags && u.tags.includes(innerTag));
+
+    anyVisible = true;
 
     const block = document.createElement('div');
     block.className = 'category-block';
     block.id = 'cat-' + cat.id;
 
-    const visibleCount = filtered.length;
-    if (visibleCount === 0 && activeLevel !== 'all') {
-      block.classList.add('hidden');
-    } else {
-      anyVisible = true;
-    }
+    // 只有该类别有 tags 才渲染内部筛选栏
+    const catTags = getTagsForCat(cat);
+    const innerBarHTML = catTags.length > 0 ? `
+      <div class="cat-tag-bar">
+        <span class="cat-tag-label">类型</span>
+        <div class="cat-tag-chips">
+          <button class="chip inner-chip ${innerTag === 'all' ? 'active' : ''}"
+            data-catid="${cat.id}" data-inner="all">全部</button>
+          ${catTags.map(t => `
+            <button class="chip inner-chip ${innerTag === t ? 'active' : ''}"
+              data-catid="${cat.id}" data-inner="${t}">${t}</button>
+          `).join('')}
+        </div>
+      </div>` : '';
 
     block.innerHTML = `
       <div class="cat-header">
@@ -461,30 +534,34 @@ function renderCategories() {
           <h2>${cat.name}</h2>
           <p>${cat.description}</p>
         </div>
-        <span class="cat-count">${visibleCount} 个单元</span>
+        <span class="cat-count">${filtered.length} 个单元</span>
       </div>
+      ${innerBarHTML}
       <div class="unit-grid" id="grid-${cat.id}"></div>
     `;
     content.appendChild(block);
 
+    // 绑定内部 chip 事件
+    block.querySelectorAll('.inner-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        activeInnerTag[chip.dataset.catid] = chip.dataset.inner;
+        renderCategories();
+      });
+    });
+
     const grid = document.getElementById('grid-' + cat.id);
-
     if (filtered.length === 0) {
-      grid.innerHTML = `<div class="empty-state">该类别训练内容即将上线，敬请期待。</div>`;
+      grid.innerHTML = `<div class="empty-state">该条件暂无训练内容，敬请期待。</div>`;
+      // 若有单元但被过滤掉了，灰显原始卡片
+      if (levelFiltered.length > 0) {
+        levelFiltered.forEach(unit => {
+          const card = buildUnitCard(unit, cat);
+          card.classList.add('coming-soon');
+          grid.appendChild(card);
+        });
+      }
     } else {
-      filtered.forEach(unit => {
-        const card = buildUnitCard(unit, cat);
-        grid.appendChild(card);
-      });
-    }
-
-    // Show all units dimmed if category has units but none match filter
-    if (filtered.length === 0 && cat.units.length > 0) {
-      cat.units.forEach(unit => {
-        const card = buildUnitCard(unit, cat);
-        card.classList.add('coming-soon');
-        grid.appendChild(card);
-      });
+      filtered.forEach(unit => grid.appendChild(buildUnitCard(unit, cat)));
     }
   });
 
@@ -493,8 +570,8 @@ function renderCategories() {
 
 function buildUnitCard(unit, cat) {
   const card = document.createElement('a');
-  const url = `trainer.html?category=${cat.id}&unit=${unit.id}`;
-  card.href = unit.exercises > 0 ? url : '#';
+  const url  = `trainer.html?category=${cat.id}&unit=${unit.id}`;
+  card.href  = unit.exercises > 0 ? url : '#';
   if (!unit.exercises || unit.exercises === 0) card.classList.add('coming-soon');
   card.className = (card.className + ' unit-card').trim();
   card.innerHTML = `
@@ -514,11 +591,21 @@ function buildUnitCard(unit, cat) {
   return card;
 }
 
-// Filter chips
-document.querySelectorAll('.chip').forEach(chip => {
+// 全局级别筛选
+document.querySelectorAll('.chip[data-level]').forEach(chip => {
   chip.addEventListener('click', () => {
     activeLevel = chip.dataset.level;
-    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('.chip[data-level]').forEach(c => c.classList.remove('active'));
+    chip.classList.add('active');
+    renderCategories();
+  });
+});
+
+// 全局大类筛选
+document.querySelectorAll('.chip[data-cat]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    activeCat = chip.dataset.cat;
+    document.querySelectorAll('.chip[data-cat]').forEach(c => c.classList.remove('active'));
     chip.classList.add('active');
     renderCategories();
   });
