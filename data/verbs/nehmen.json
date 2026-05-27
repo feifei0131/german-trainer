@@ -3,8 +3,12 @@
   "title": "nehmen",
   "subtitle": "拿 / 取 / 乘坐",
   "category": "verbs",
-  "level": ["A1"],
-  "tags": ["不规则动词"],
+  "level": [
+    "A1"
+  ],
+  "tags": [
+    "不规则动词"
+  ],
   "trainer": "verb-drill",
   "meta": {
     "totalSections": 6,
@@ -244,6 +248,15 @@
           "note": null
         }
       ]
+    }
+  ],
+  "endQuote": "Nimm dir Zeit für das, was dich glücklich macht.",
+  "endQuoteCN": "花时间去做让你快乐的事。",
+  "related": [
+    {
+      "id": "mitnehmen",
+      "label": "mitnehmen",
+      "note": "带走（可分动词）"
     }
   ]
 }
