@@ -149,6 +149,45 @@
           ],
           "sections": 6,
           "exercises": 30
+        },
+        {
+          "id": "kommen",
+          "title": "kommen",
+          "subtitle": "来 / 过来",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "不规则动词"
+          ],
+          "sections": 6,
+          "exercises": 32
+        },
+        {
+          "id": "mitkommen",
+          "title": "mitkommen",
+          "subtitle": "一起来 / 跟来",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词"
+          ],
+          "sections": 6,
+          "exercises": 32
+        },
+        {
+          "id": "ankommen",
+          "title": "ankommen",
+          "subtitle": "到达 / 抵达",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词"
+          ],
+          "sections": 6,
+          "exercises": 32
         }
       ]
     },
