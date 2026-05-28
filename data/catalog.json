@@ -262,6 +262,15 @@
           ],
           "sections": 8,
           "exercises": 36
+        },
+        {
+         "id": "negation",
+         "title": "否定句",
+         "subtitle": "nicht · kein/keine · 位置规则",
+         "level": ["A1", "A2"],
+         "tags": ["句子结构", "否定句"],
+         "sections": 5,
+         "exercises": 30
         }
       ]
     }
