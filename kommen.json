@@ -1,0 +1,279 @@
+{
+  "id": "kommen",
+  "title": "kommen",
+  "subtitle": "来 / 过来",
+  "category": "verbs",
+  "level": [
+    "A1"
+  ],
+  "tags": [
+    "不规则动词"
+  ],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 32
+  },
+  "endQuote": "Komm, wie du bist — das ist genug.",
+  "endQuoteCN": "就这样来吧——你已经足够好了。",
+  "related": [
+    {
+      "id": "mitkommen",
+      "label": "mitkommen",
+      "note": "一起来（可分动词）"
+    },
+    {
+      "id": "ankommen",
+      "label": "ankommen",
+      "note": "到达（可分动词）"
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位（Präsens）",
+      "grammar": "不规则动词，现在时无元音变音\ních komme / du kommst / er kommt\nwir kommen / ihr kommt / sie kommen\n⚠️ Perfekt 用 sein！kommen 是移动动词",
+      "exCN": "我来了。/ 你从哪里来？/ 他们明天来。",
+      "exDE": "Ich komme. / Woher kommst du? / Sie kommen morgen.",
+      "exercises": [
+        {
+          "q": "我来了。",
+          "hint": null,
+          "a": "Ich komme.",
+          "note": null
+        },
+        {
+          "q": "你从哪里来？",
+          "hint": null,
+          "a": "Woher kommst du?",
+          "note": null
+        },
+        {
+          "q": "玛丽亚明天来。",
+          "hint": null,
+          "a": "Maria kommt morgen.",
+          "note": null
+        },
+        {
+          "q": "你们今天来吗？",
+          "hint": null,
+          "a": "Kommt ihr heute?",
+          "note": null
+        },
+        {
+          "q": "他们什么时候来？",
+          "hint": null,
+          "a": "Wann kommen sie?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "方向介词搭配：aus / von / zu",
+      "grammar": "aus + Dat：来自（出生地、从内部出来）\nvon + Dat：来自（某地点、活动结束后）\nzu + Dat：来到（某人那里）\n⚠️ aus 从里面出来，von 从某处离开",
+      "exCN": "托马斯来自德国。/ 她刚从车站回来。/ 他来我这里。",
+      "exDE": "Thomas kommt aus Deutschland. / Sie kommt gerade vom Bahnhof. / Er kommt zu mir.",
+      "exercises": [
+        {
+          "q": "我来自中国。",
+          "hint": "aus China",
+          "a": "Ich komme aus China.",
+          "note": null
+        },
+        {
+          "q": "玛丽亚来自哪里？",
+          "hint": null,
+          "a": "Woher kommt Maria?",
+          "note": null
+        },
+        {
+          "q": "他们刚从派对回来。",
+          "hint": "gerade, von der Party",
+          "a": "Sie kommen gerade von der Party.",
+          "note": null
+        },
+        {
+          "q": "你能来我家吗？",
+          "hint": "können, zu mir",
+          "a": "Kannst du zu mir kommen?",
+          "note": null
+        },
+        {
+          "q": "托马斯来自哪个城市？",
+          "hint": "aus welcher Stadt",
+          "a": "Aus welcher Stadt kommt Thomas?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语放动词之后，或提到句首\n句首时动词紧跟其后（第二位规则）\n常用：heute / morgen / gleich / bald\ngerade（刚刚）紧跟变位动词之后\n示例：Morgen kommt Thomas.",
+      "exCN": "我马上来。/ 玛丽亚今天不来。/ 他们很快就来。",
+      "exDE": "Ich komme gleich. / Maria kommt heute nicht. / Sie kommen bald.",
+      "exercises": [
+        {
+          "q": "我马上来！",
+          "hint": null,
+          "a": "Ich komme gleich!",
+          "note": null
+        },
+        {
+          "q": "玛丽亚今天不来。",
+          "hint": null,
+          "a": "Maria kommt heute nicht.",
+          "note": null
+        },
+        {
+          "q": "明天你们几点来？",
+          "hint": "um wie viel Uhr",
+          "a": "Um wie viel Uhr kommt ihr morgen?",
+          "note": null
+        },
+        {
+          "q": "他们很快就会来。",
+          "hint": null,
+          "a": "Sie kommen bald.",
+          "note": null
+        },
+        {
+          "q": "她刚刚从厨房出来。",
+          "hint": "gerade, aus der Küche",
+          "a": "Sie kommt gerade aus der Küche.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "过去时 Perfekt",
+      "grammar": "sein + gekommen（不规则！）\ních bin / du bist / er ist … gekommen\nwir sind / ihr seid / sie sind … gekommen\n⚠️ 助动词是 sein，不是 haben！\n⚠️ 过去分词：ge-komm-en，不是 gekommt！",
+      "exCN": "我刚才来了。/ 玛丽亚昨天来了吗？/ 他们从慕尼黑来的。",
+      "exDE": "Ich bin gerade gekommen. / Ist Maria gestern gekommen? / Sie sind aus München gekommen.",
+      "exercises": [
+        {
+          "q": "我刚才来了。",
+          "hint": "gerade",
+          "a": "Ich bin gerade gekommen.",
+          "note": "Perfekt: sein + gekommen"
+        },
+        {
+          "q": "玛丽亚昨天来了吗？",
+          "hint": null,
+          "a": "Ist Maria gestern gekommen?",
+          "note": null
+        },
+        {
+          "q": "他们是从慕尼黑来的。",
+          "hint": "aus München",
+          "a": "Sie sind aus München gekommen.",
+          "note": null
+        },
+        {
+          "q": "托马斯什么时候来的？",
+          "hint": null,
+          "a": "Wann ist Thomas gekommen?",
+          "note": null
+        },
+        {
+          "q": "你是怎么来的？",
+          "hint": "交通方式",
+          "a": "Wie bist du gekommen?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句（Imperativ）",
+      "grammar": "du → Komm!    ihr → Kommt!\nSie → Kommen Sie!\nkommen 祈使句无元音变音，形式规律\n常用：bitte / schnell / gleich / rein / her\n口语：Komm rein!（进来！）",
+      "exCN": "快来！/ 请进！/ 孩子们，过来！",
+      "exDE": "Komm schnell! / Kommen Sie bitte herein! / Kommt her, Kinder!",
+      "exercises": [
+        {
+          "q": "快来！（对一个朋友）",
+          "hint": null,
+          "a": "Komm schnell!",
+          "note": null
+        },
+        {
+          "q": "请进！（正式）",
+          "hint": null,
+          "a": "Kommen Sie bitte herein!",
+          "note": null
+        },
+        {
+          "q": "孩子们，过来！",
+          "hint": "her",
+          "a": "Kommt her, Kinder!",
+          "note": null
+        },
+        {
+          "q": "马上来！（对朋友）",
+          "hint": null,
+          "a": "Komm gleich!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句（Fragen）",
+      "grammar": "5个维度：\nWoher / Von wem（来源/从谁那里）\nWohin / Zu wem（去哪/去谁那里）\nWarum（为什么）\nWann / Um wie viel Uhr（时间）\nWie / Womit（方式/交通）\n⚠️ 问来源用 Woher，不用 Wo！",
+      "exCN": "你从哪里来？/ 你为什么不来？/ 你怎么来的？",
+      "exDE": "Woher kommst du? / Warum kommst du nicht? / Wie bist du gekommen?",
+      "exercises": [
+        {
+          "q": "你从哪里来？",
+          "hint": null,
+          "a": "Woher kommst du?",
+          "note": null
+        },
+        {
+          "q": "玛丽亚从谁那里来的？",
+          "hint": "Von wem",
+          "a": "Von wem ist Maria gekommen?",
+          "note": null
+        },
+        {
+          "q": "你为什么不来？",
+          "hint": null,
+          "a": "Warum kommst du nicht?",
+          "note": null
+        },
+        {
+          "q": "你们几点来？",
+          "hint": "Um wie viel Uhr",
+          "a": "Um wie viel Uhr kommt ihr?",
+          "note": null
+        },
+        {
+          "q": "你怎么来的？",
+          "hint": "交通方式",
+          "a": "Wie bist du gekommen?",
+          "note": null
+        },
+        {
+          "q": "托马斯来过这里吗？",
+          "hint": "schon mal",
+          "a": "Ist Thomas schon mal hierher gekommen?",
+          "note": null
+        },
+        {
+          "q": "你能来我这里吗？",
+          "hint": "können, zu mir",
+          "a": "Kannst du zu mir kommen?",
+          "note": null
+        },
+        {
+          "q": "他们是从哪个国家来的？",
+          "hint": "aus welchem Land",
+          "a": "Aus welchem Land sind sie gekommen?",
+          "note": null
+        }
+      ]
+    }
+  ]
+}

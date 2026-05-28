@@ -1,0 +1,261 @@
+{
+  "id": "lesen",
+  "title": "lesen",
+  "subtitle": "阅读 / 读",
+  "category": "verbs",
+  "level": ["A1"],
+  "tags": ["强变化动词", "元音变音"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 32
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位",
+      "grammar": "lesen 是强变化动词，\n第2、3人称单数 e → ie 变音：\ních lese / du liest / er liest\nwir lesen / ihr lest / Sie lesen\n⚠️ du liest（不是 du lesst！）",
+      "exCN": "我读一本书。/ 她读报纸。",
+      "exDE": "Ich lese ein Buch. / Sie liest die Zeitung.",
+      "exercises": [
+        {
+          "q": "我读一本书。",
+          "hint": null,
+          "a": "Ich lese ein Buch.",
+          "note": null
+        },
+        {
+          "q": "他读报纸。",
+          "hint": null,
+          "a": "Er liest die Zeitung.",
+          "note": "⚠️ er liest（e→ie 变音）"
+        },
+        {
+          "q": "你读菜单吗？",
+          "hint": "die Speisekarte",
+          "a": "Liest du die Speisekarte?",
+          "note": "⚠️ du liest（e→ie 变音）"
+        },
+        {
+          "q": "我们一起读课文。",
+          "hint": "der Text / zusammen",
+          "a": "Wir lesen den Text zusammen.",
+          "note": "der Text → den Text（Akk）"
+        },
+        {
+          "q": "她经常读很多书。",
+          "hint": "viele Bücher / oft",
+          "a": "Sie liest oft viele Bücher.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "宾语搭配（Akkusativ）",
+      "grammar": "lesen 接第四格（Akkusativ）宾语：\n⚠️ 阳性名词 der → den\n  der Roman → den Roman\n  der Artikel → den Artikel\n  der Brief → einen Brief",
+      "exCN": "我读这本小说。/ 他读一封邮件。",
+      "exDE": "Ich lese den Roman. / Er liest eine E-Mail.",
+      "exercises": [
+        {
+          "q": "我读这篇文章。",
+          "hint": "der Artikel → den Artikel",
+          "a": "Ich lese den Artikel.",
+          "note": "⚠️ 阳性名词第四格：der → den"
+        },
+        {
+          "q": "她读一封信。",
+          "hint": "der Brief → einen Brief",
+          "a": "Sie liest einen Brief.",
+          "note": "einen Brief（不定冠词阳性Akk）"
+        },
+        {
+          "q": "孩子们读一个故事。",
+          "hint": "die Geschichte",
+          "a": "Die Kinder lesen eine Geschichte.",
+          "note": null
+        },
+        {
+          "q": "你在读哪本书？",
+          "hint": "welch- + 第四格",
+          "a": "Welches Buch liest du?",
+          "note": "welches Buch（中性第四格）"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语放句首时主动词倒装：\n  Morgens lese ich die Zeitung.\n常用时间词：\nmorgens / abends / jeden Tag\nam Wochenende / oft / manchmal",
+      "exCN": "我每天读书。/ 他晚上经常读小说。",
+      "exDE": "Jeden Tag lese ich ein Buch. / Abends liest er oft einen Roman.",
+      "exercises": [
+        {
+          "q": "我每天读书。",
+          "hint": "jeden Tag",
+          "a": "Ich lese jeden Tag ein Buch.",
+          "note": "也可：Jeden Tag lese ich ein Buch."
+        },
+        {
+          "q": "他晚上经常读小说。",
+          "hint": "abends / oft",
+          "a": "Abends liest er oft einen Roman.",
+          "note": "⚠️ 句首时间状语→动词倒装"
+        },
+        {
+          "q": "我们周末读报纸。",
+          "hint": "am Wochenende",
+          "a": "Am Wochenende lesen wir die Zeitung.",
+          "note": null
+        },
+        {
+          "q": "她有时候在咖啡馆读书。",
+          "hint": "manchmal / im Café",
+          "a": "Manchmal liest sie im Café ein Buch.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Perfekt（完成时）",
+      "grammar": "lesen 的 Perfekt：\nhaben + gelesen（不规则！）\ních habe gelesen\ndu hast gelesen\ner / sie hat gelesen\nwir haben gelesen\n⚠️ 过去分词是 gelesen，\n不是 gelesst！",
+      "exCN": "我读了这封邮件。/ 她昨天读了报纸。",
+      "exDE": "Ich habe die E-Mail gelesen. / Sie hat gestern die Zeitung gelesen.",
+      "exercises": [
+        {
+          "q": "我读了这封邮件。",
+          "hint": null,
+          "a": "Ich habe die E-Mail gelesen.",
+          "note": "⚠️ 过去分词：gelesen（不规则）"
+        },
+        {
+          "q": "他昨天读了一本书。",
+          "hint": "gestern",
+          "a": "Er hat gestern ein Buch gelesen.",
+          "note": "⚠️ gelesen 放句末"
+        },
+        {
+          "q": "我们上周读了这篇文章。",
+          "hint": "letzte Woche",
+          "a": "Wir haben letzte Woche den Artikel gelesen.",
+          "note": null
+        },
+        {
+          "q": "你已经读完这本小说了吗？",
+          "hint": "schon",
+          "a": "Hast du den Roman schon gelesen?",
+          "note": "⚠️ 疑问句：haben 在句首"
+        },
+        {
+          "q": "孩子们读了一个故事。",
+          "hint": "eine Geschichte",
+          "a": "Die Kinder haben eine Geschichte gelesen.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句",
+      "grammar": "lesen 祈使句有元音变音（e→ie）：\ndu  → Lies! ⚠️（不是 Lese!）\nihr → Lest!\nSie → Lesen Sie!\n常用副词：bitte / laut / leise\n           langsam / zusammen",
+      "exCN": "请读这本书！/ 请大家一起读！",
+      "exDE": "Lies bitte das Buch! / Lest bitte zusammen!",
+      "exercises": [
+        {
+          "q": "请读这篇文章！（对 du）",
+          "hint": null,
+          "a": "Lies bitte den Artikel!",
+          "note": "⚠️ Lies!（不是 Lese! e→ie）"
+        },
+        {
+          "q": "请大声读！（对 ihr）",
+          "hint": "laut",
+          "a": "Lest bitte laut!",
+          "note": "⚠️ ihr 祈使句：Lest!（无变音）"
+        },
+        {
+          "q": "请慢慢读这个句子。\n（对 Sie）",
+          "hint": "den Satz / langsam",
+          "a": "Lesen Sie bitte den Satz langsam!",
+          "note": "⚠️ Sie 祈使句：Lesen Sie!（主语保留）"
+        },
+        {
+          "q": "请不要大声读！（对 du）",
+          "hint": "nicht laut",
+          "a": "Lies bitte nicht laut!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句",
+      "grammar": "5个疑问维度：\nWas → 读什么（宾语）\nWorüber → 读什么话题\nWarum → 为什么读\nWann / Wie lange / Seit wann → 时间\nWie → 怎么读\n⚠️ 问宾语用 Was（及物动词）",
+      "exCN": "你在读什么？/ 为什么你不读报纸？",
+      "exDE": "Was liest du? / Warum liest du nicht die Zeitung?",
+      "exercises": [
+        {
+          "q": "你在读什么？",
+          "hint": null,
+          "a": "Was liest du?",
+          "note": null
+        },
+        {
+          "q": "你在读关于什么话题的书？",
+          "hint": "Worüber",
+          "a": "Worüber liest du das Buch?",
+          "note": "Worüber = über + was（合并形式）"
+        },
+        {
+          "q": "为什么你不读报纸？",
+          "hint": "Warum / nicht",
+          "a": "Warum liest du nicht die Zeitung?",
+          "note": null
+        },
+        {
+          "q": "你什么时候读书？",
+          "hint": "Wann",
+          "a": "Wann liest du ein Buch?",
+          "note": null
+        },
+        {
+          "q": "你已经读书多久了？",
+          "hint": "Wie lange / schon",
+          "a": "Wie lange liest du schon?",
+          "note": null
+        },
+        {
+          "q": "你从什么时候开始读这本书的？",
+          "hint": "Seit wann",
+          "a": "Seit wann liest du dieses Buch?",
+          "note": "Seit + Dativ，表持续到现在"
+        },
+        {
+          "q": "你怎么读？大声还是轻声？",
+          "hint": "Wie / laut oder leise",
+          "a": "Wie liest du? Laut oder leise?",
+          "note": null
+        },
+        {
+          "q": "她昨天读了什么？",
+          "hint": "Perfekt",
+          "a": "Was hat sie gestern gelesen?",
+          "note": "⚠️ Perfekt 疑问：hat 在句首"
+        },
+        {
+          "q": "为什么他没有读这篇文章？",
+          "hint": "Perfekt + nicht",
+          "a": "Warum hat er den Artikel nicht gelesen?",
+          "note": "nicht 放在过去分词前"
+        },
+        {
+          "q": "你们打算什么时候读这本书？",
+          "hint": "möchten / Wann",
+          "a": "Wann möchtet ihr das Buch lesen?",
+          "note": "möchten + 动词原形放句末"
+        }
+      ]
+    }
+  ]
+}

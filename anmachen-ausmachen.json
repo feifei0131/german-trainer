@@ -1,0 +1,213 @@
+{
+  "id": "anmachen-ausmachen",
+  "title": "anmachen & ausmachen",
+  "subtitle": "开 / 关（可分动词对比）",
+  "category": "verbs",
+  "level": ["A1"],
+  "tags": ["可分动词", "对比训练"],
+  "trainer": "verb-drill",
+  "endQuote": "Mach das Licht an — und die Dunkelheit verschwindet.",
+  "endQuoteCN": "开灯吧——黑暗就消失了。",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 23
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "可分动词规则（核心！）",
+      "grammar": "anmachen（开） & ausmachen（关）\n都是可分动词（trennbar）！\n现在时：前缀分离到句末\n  Ich mache das Licht AN.\n  Ich mache das Licht AUS.\nPerfekt：an-ge-macht / aus-ge-macht\n⚠️ 错：Ich anmache.\n✅ 对：Ich mache … an/aus.",
+      "exCN": "我开灯。/ 我关灯。",
+      "exDE": "Ich mache das Licht an.\nIch mache das Licht aus.",
+      "exercises": [
+        {
+          "q": "我打开灯。",
+          "hint": null,
+          "a": "Ich mache das Licht an.",
+          "note": null
+        },
+        {
+          "q": "我关灯。",
+          "hint": null,
+          "a": "Ich mache das Licht aus.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "现在时变位对比",
+      "grammar": "两动词变位对称，前缀分离规则相同：\ních: mache…an / aus\ndu: machst…an / aus\ner/sie: macht…an / aus\n常见宾语（Akkusativ）：\ndas Licht / den Fernseher\ndie Musik / den Computer\ndas Radio / die Heizung",
+      "exCN": "她打开电视。/ 他关掉音乐。",
+      "exDE": "Sie macht den Fernseher an.\nEr macht die Musik aus.",
+      "exercises": [
+        {
+          "q": "她打开电视。",
+          "hint": "den Fernseher",
+          "a": "Sie macht den Fernseher an.",
+          "note": null
+        },
+        {
+          "q": "他关掉音乐。",
+          "hint": "die Musik",
+          "a": "Er macht die Musik aus.",
+          "note": null
+        },
+        {
+          "q": "你打开电脑吗？",
+          "hint": "den Computer",
+          "a": "Machst du den Computer an?",
+          "note": null
+        },
+        {
+          "q": "我们关掉暖气。",
+          "hint": "die Heizung",
+          "a": "Wir machen die Heizung aus.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语紧跟动词，前缀依然在句末：\n主语 + macht + 时间 + 宾语 + an/aus\nabends（傍晚）\nmorgens（早上）\nsofort（马上）/ jetzt（现在）",
+      "exCN": "她每晚关灯。",
+      "exDE": "Sie macht abends das Licht aus.",
+      "exercises": [
+        {
+          "q": "我每晚关电视。",
+          "hint": "abends, den Fernseher",
+          "a": "Ich mache abends den Fernseher aus.",
+          "note": null
+        },
+        {
+          "q": "他早上打开收音机。",
+          "hint": "morgens, das Radio",
+          "a": "Er macht morgens das Radio an.",
+          "note": null
+        },
+        {
+          "q": "请马上关掉音乐！",
+          "hint": "sofort",
+          "a": "Mach die Musik sofort aus!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Perfekt 过去时",
+      "grammar": "可分动词过去分词：前缀 + ge + 词根\nanmachen → angemacht\nausmachen → ausgemacht\n结构：haben + angemacht/ausgemacht\n⚠️ ge- 插在前缀和词根之间！\n❌ gemacht an → ✅ angemacht",
+      "exCN": "她开了灯。/ 他关掉了电视。",
+      "exDE": "Sie hat das Licht angemacht.\nEr hat den Fernseher ausgemacht.",
+      "exercises": [
+        {
+          "q": "我刚才开了灯。",
+          "hint": "gerade",
+          "a": "Ich habe gerade das Licht angemacht.",
+          "note": null
+        },
+        {
+          "q": "他昨晚关了电视。",
+          "hint": "gestern Abend",
+          "a": "Er hat gestern Abend den Fernseher ausgemacht.",
+          "note": null
+        },
+        {
+          "q": "你关掉音乐了吗？",
+          "hint": null,
+          "a": "Hast du die Musik ausgemacht?",
+          "note": null
+        },
+        {
+          "q": "谁打开了暖气？",
+          "hint": "die Heizung",
+          "a": "Wer hat die Heizung angemacht?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句",
+      "grammar": "祈使句：前缀同样分离到末位！\ndu  → Mach … an! / Mach … aus!\nihr → Macht … an! / Macht … aus!\nSie → Machen Sie … an/aus!\n⚠️ 错：Anmach das Licht!\n✅ 对：Mach das Licht an!",
+      "exCN": "请开灯！/ 请关灯！",
+      "exDE": "Mach das Licht an!\nMacht das Licht aus!",
+      "exercises": [
+        {
+          "q": "请开电视！（对朋友）",
+          "hint": null,
+          "a": "Mach den Fernseher an!",
+          "note": null
+        },
+        {
+          "q": "请你们关掉音乐！",
+          "hint": null,
+          "a": "Macht die Musik aus!",
+          "note": null
+        },
+        {
+          "q": "请您关掉暖气！（对长辈）",
+          "hint": null,
+          "a": "Machen Sie die Heizung aus, bitte!",
+          "note": null
+        },
+        {
+          "q": "请马上开灯！（对朋友）",
+          "hint": "sofort",
+          "a": "Mach das Licht sofort an!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句",
+      "grammar": "Was（开/关什么）\nWer（谁开/关的）\nWarum（为什么开/关）\nWann（什么时候开/关）\nWarum noch nicht（为什么还没）",
+      "exCN": "你开了什么？/ 谁关掉了电视？",
+      "exDE": "Was hast du angemacht?\nWer hat den Fernseher ausgemacht?",
+      "exercises": [
+        {
+          "q": "你开了什么？（Perfekt）",
+          "hint": null,
+          "a": "Was hast du angemacht?",
+          "note": null
+        },
+        {
+          "q": "谁关掉了电视？（Perfekt）",
+          "hint": null,
+          "a": "Wer hat den Fernseher ausgemacht?",
+          "note": null
+        },
+        {
+          "q": "你为什么不关灯？",
+          "hint": null,
+          "a": "Warum machst du das Licht nicht aus?",
+          "note": null
+        },
+        {
+          "q": "你什么时候关电脑？",
+          "hint": "den Computer",
+          "a": "Wann machst du den Computer aus?",
+          "note": null
+        },
+        {
+          "q": "他为什么还没开暖气？",
+          "hint": "Perfekt + noch nicht",
+          "a": "Warum hat er die Heizung noch nicht angemacht?",
+          "note": "noch nicht = 还没有"
+        },
+        {
+          "q": "你们每晚关掉所有的灯吗？",
+          "hint": "alle Lichter, abends",
+          "a": "Macht ihr abends alle Lichter aus?",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "related": [
+    { "id": "machen", "label": "machen", "note": "词根动词（规则）" },
+    { "id": "mitmachen", "label": "mitmachen", "note": "可分动词（参与）" }
+  ]
+}

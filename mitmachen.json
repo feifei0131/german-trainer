@@ -1,0 +1,219 @@
+{
+  "id": "mitmachen",
+  "title": "mitmachen",
+  "subtitle": "参与 / 一起做 / 配合",
+  "category": "verbs",
+  "level": ["A1"],
+  "tags": ["可分动词", "高频动词"],
+  "trainer": "verb-drill",
+  "endQuote": "Mach mit — denn gemeinsam macht es mehr Spaß!",
+  "endQuoteCN": "参与吧——因为一起做才更有趣！",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 24
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "可分动词规则 & 变位",
+      "grammar": "mitmachen = mit-（参与）+ machen（做）\n现在时：前缀分离到句末\n  Ich mache MIT.\n  Du machst MIT.\ných: mache…mit\ndu: machst…mit\ner/sie: macht…mit\n⚠️ 错：Ich mitmache.\n✅ 对：Ich mache MIT.",
+      "exCN": "我参与。/ 你也参与吗？",
+      "exDE": "Ich mache mit. / Machst du auch mit?",
+      "exercises": [
+        {
+          "q": "我参与。",
+          "hint": null,
+          "a": "Ich mache mit.",
+          "note": null
+        },
+        {
+          "q": "你也参与吗？",
+          "hint": null,
+          "a": "Machst du auch mit?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "核心搭配 bei + Dativ",
+      "grammar": "mitmachen 最常见：bei + Dativ（第三格）\n表示\"参与某活动\"：\nbei dem = beim（阳/中性）\nbei der（阴性）\nbeim Projekt / beim Spiel\nbeim Wettbewerb / bei der Aktion\nbei der Übung（练习）\n⚠️ bei 后永远用第三格！",
+      "exCN": "她参加游戏。/ 你们参加比赛吗？",
+      "exDE": "Sie macht beim Spiel mit.\nMacht ihr beim Wettbewerb mit?",
+      "exercises": [
+        {
+          "q": "她参加游戏。",
+          "hint": "beim Spiel",
+          "a": "Sie macht beim Spiel mit.",
+          "note": null
+        },
+        {
+          "q": "他们参加这个活动。",
+          "hint": "bei der Aktion",
+          "a": "Sie machen bei der Aktion mit.",
+          "note": null
+        },
+        {
+          "q": "你们参加比赛吗？",
+          "hint": "beim Wettbewerb",
+          "a": "Macht ihr beim Wettbewerb mit?",
+          "note": null
+        },
+        {
+          "q": "我不参与这个练习。",
+          "hint": "bei der Übung + nicht",
+          "a": "Ich mache bei der Übung nicht mit.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语置于动词后，前缀在句末：\nheute / morgen\nnächste Woche（下周）\nimmer（总是）/ nie（从不）\nauch（也）/ gern（乐意地）",
+      "exCN": "我明天也参与。",
+      "exDE": "Ich mache morgen auch mit.",
+      "exercises": [
+        {
+          "q": "我明天也参与。",
+          "hint": null,
+          "a": "Ich mache morgen auch mit.",
+          "note": null
+        },
+        {
+          "q": "他总是乐意参加游戏。",
+          "hint": "beim Spiel, immer gern",
+          "a": "Er macht beim Spiel immer gern mit.",
+          "note": null
+        },
+        {
+          "q": "她从不参与这个活动。",
+          "hint": "bei der Aktion, nie",
+          "a": "Sie macht bei der Aktion nie mit.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Perfekt 过去时",
+      "grammar": "可分动词过去分词：\nmitmachen → mitgemacht\n结构：haben + mitgemacht（句末）\nIch habe mitgemacht.\nSie hat beim Projekt mitgemacht.\n⚠️ 错：gemitmacht\n✅ 对：MITgemacht",
+      "exCN": "我昨天参与了。/ 她参加了比赛。",
+      "exDE": "Ich habe gestern mitgemacht.\nSie hat beim Wettbewerb mitgemacht.",
+      "exercises": [
+        {
+          "q": "我昨天参与了。",
+          "hint": null,
+          "a": "Ich habe gestern mitgemacht.",
+          "note": null
+        },
+        {
+          "q": "她参加了比赛。",
+          "hint": "beim Wettbewerb",
+          "a": "Sie hat beim Wettbewerb mitgemacht.",
+          "note": null
+        },
+        {
+          "q": "他没有参加这个活动。",
+          "hint": "bei der Aktion + nicht",
+          "a": "Er hat bei der Aktion nicht mitgemacht.",
+          "note": null
+        },
+        {
+          "q": "你们上周参加了吗？",
+          "hint": "letzte Woche",
+          "a": "Habt ihr letzte Woche mitgemacht?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句",
+      "grammar": "前缀 mit- 分离到末位：\ndu  → Mach mit!\nihr → Macht mit!\nSie → Machen Sie mit!\n常用搭配：\nMach doch mit!（劝说语气）\nKomm, mach mit!（来加入吧！）",
+      "exCN": "快参与！/ 大家一起来参加！",
+      "exDE": "Mach mit! / Macht alle mit!",
+      "exercises": [
+        {
+          "q": "快参与！（对朋友）",
+          "hint": null,
+          "a": "Mach mit!",
+          "note": null
+        },
+        {
+          "q": "大家一起来参加！",
+          "hint": "alle",
+          "a": "Macht alle mit!",
+          "note": null
+        },
+        {
+          "q": "请您也参与！（对长辈）",
+          "hint": null,
+          "a": "Machen Sie auch mit, bitte!",
+          "note": null
+        },
+        {
+          "q": "来，加入吧！（劝说语气）",
+          "hint": null,
+          "a": "Komm, mach doch mit!",
+          "note": "doch：表劝说，语气更柔和"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句",
+      "grammar": "Wobei（参加什么）= bei + was\nWer（谁参加了）\nWarum（为什么参与/不参与）\nWann（什么时候参与）\nWie（怎么参与）\n注：口语也可说\n  Bei was machst du mit?（非正式）",
+      "exCN": "你参加什么活动？/ 为什么你不参与？",
+      "exDE": "Wobei machst du mit?\nWarum machst du nicht mit?",
+      "exercises": [
+        {
+          "q": "你参加什么活动？",
+          "hint": "Wobei",
+          "a": "Wobei machst du mit?",
+          "note": "Wobei = bei + was（合并疑问词）"
+        },
+        {
+          "q": "谁参加了这个项目？",
+          "hint": "Perfekt",
+          "a": "Wer hat beim Projekt mitgemacht?",
+          "note": null
+        },
+        {
+          "q": "为什么你不参与？",
+          "hint": null,
+          "a": "Warum machst du nicht mit?",
+          "note": null
+        },
+        {
+          "q": "你什么时候参加比赛？",
+          "hint": "beim Wettbewerb",
+          "a": "Wann machst du beim Wettbewerb mit?",
+          "note": null
+        },
+        {
+          "q": "她为什么没有参加这个活动？",
+          "hint": "Perfekt + nicht",
+          "a": "Warum hat sie bei der Aktion nicht mitgemacht?",
+          "note": null
+        },
+        {
+          "q": "你们怎么参与这个项目的？",
+          "hint": "Wie + Perfekt",
+          "a": "Wie habt ihr beim Projekt mitgemacht?",
+          "note": null
+        },
+        {
+          "q": "下周谁参加游戏？",
+          "hint": "nächste Woche",
+          "a": "Wer macht nächste Woche beim Spiel mit?",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "related": [
+    { "id": "machen", "label": "machen", "note": "词根动词（规则）" },
+    { "id": "anmachen-ausmachen", "label": "anmachen & ausmachen", "note": "可分动词（开/关）" }
+  ]
+}

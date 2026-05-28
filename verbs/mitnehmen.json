@@ -1,0 +1,262 @@
+{
+  "id": "mitnehmen",
+  "title": "mitnehmen",
+  "subtitle": "带走 / 随身携带 / 顺带",
+  "category": "verbs",
+  "level": [
+    "A1"
+  ],
+  "tags": [
+    "可分动词"
+  ],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 30
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位与可分规则",
+      "grammar": "可分动词：mit- 前缀 + nehmen 词干\n核心规则：mit 放句子最末尾！\ních nehme…mit / du nimmst…mit ⚠️\ner nimmt…mit / wir nehmen…mit\n❌ Ich mitnehme das Buch.\n✅ Ich nehme das Buch mit.",
+      "exCN": "我把水带走。/ 你带狗了吗？",
+      "exDE": "Ich nehme das Wasser mit. / Nimmst du den Hund mit?",
+      "exercises": [
+        {
+          "q": "我把雨伞带走。",
+          "hint": "der Regenschirm → den Regenschirm",
+          "a": "Ich nehme den Regenschirm mit.",
+          "note": "mit 在句末！"
+        },
+        {
+          "q": "你带外套了吗？",
+          "hint": "die Jacke",
+          "a": "Nimmst du die Jacke mit?",
+          "note": null
+        },
+        {
+          "q": "她把手机带走了。",
+          "hint": "das Handy",
+          "a": "Sie nimmt das Handy mit.",
+          "note": null
+        },
+        {
+          "q": "我们把食物都带走。",
+          "hint": "das ganze Essen",
+          "a": "Wir nehmen das ganze Essen mit.",
+          "note": null
+        },
+        {
+          "q": "你们把什么带去派对？",
+          "hint": "zur Party, was",
+          "a": "Was nehmt ihr zur Party mit?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "带物去某地 / 带人顺路",
+      "grammar": "用法一：带物去某地\n  nimmt + 物(Akk) + 去哪 + mit\n用法二：顺带某人\n  nimmt + 人(Akk) + mit\n⚠️ 问人用 Wen（四格！）不是 Wer！\n  Wen nimmst du mit?",
+      "exCN": "我把午饭带去学校。/ 你能带我去车站吗？",
+      "exDE": "Ich nehme das Mittagessen in die Schule mit. / Kannst du mich zum Bahnhof mitnehmen?",
+      "exercises": [
+        {
+          "q": "我把午饭带去学校。",
+          "hint": "das Mittagessen, in die Schule",
+          "a": "Ich nehme das Mittagessen\nin die Schule mit.",
+          "note": null
+        },
+        {
+          "q": "你能带我去车站吗？",
+          "hint": "können, mich, zum Bahnhof",
+          "a": "Kannst du mich zum Bahnhof mitnehmen?",
+          "note": "不定式：mitnehmen（合写）"
+        },
+        {
+          "q": "托马斯把狗带去公园。",
+          "hint": "den Hund, in den Park",
+          "a": "Thomas nimmt den Hund in den Park mit.",
+          "note": null
+        },
+        {
+          "q": "我可以带朋友一起去吗？",
+          "hint": "darf, meinen Freund",
+          "a": "Darf ich meinen Freund mitnehmen?",
+          "note": null
+        },
+        {
+          "q": "她把孩子们也带去超市了。",
+          "hint": "die Kinder, in den Supermarkt",
+          "a": "Sie nimmt die Kinder auch\nin den Supermarkt mit.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语放中间，mit 始终在句末！\nSubjekt + nimmt + 时间 + 物 + 地点 + mit\n常用词：jeden Tag / immer / manchmal\n  nie / morgen / jetzt\n例：Ich nehme jeden Tag\n  die Wasserflasche ins Büro mit.",
+      "exCN": "我每天把水杯带去办公室。/ 托马斯从不带伞。",
+      "exDE": "Ich nehme jeden Tag die Wasserflasche ins Büro mit. / Thomas nimmt nie den Regenschirm mit.",
+      "exercises": [
+        {
+          "q": "我每天都把水杯带去办公室。",
+          "hint": "die Wasserflasche, ins Büro",
+          "a": "Ich nehme jeden Tag\ndie Wasserflasche ins Büro mit.",
+          "note": null
+        },
+        {
+          "q": "她有时候把书带去咖啡馆。",
+          "hint": "manchmal, das Buch, ins Café",
+          "a": "Sie nimmt manchmal das Buch ins Café mit.",
+          "note": null
+        },
+        {
+          "q": "明天我们把行李带去车站。",
+          "hint": "das Gepäck, zum Bahnhof",
+          "a": "Morgen nehmen wir das Gepäck\nzum Bahnhof mit.",
+          "note": null
+        },
+        {
+          "q": "托马斯从不带雨伞。",
+          "hint": "nie",
+          "a": "Thomas nimmt nie den Regenschirm mit.",
+          "note": null
+        },
+        {
+          "q": "你们每次出门都带狗吗？",
+          "hint": "jedes Mal, den Hund",
+          "a": "Nehmt ihr jedes Mal den Hund mit?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "过去时 Perfekt",
+      "grammar": "haben + mitgenommen（不规则！）\nmit + ge + nomm + en = mitgenommen\ních habe / du hast / er hat … mitgenommen\n⚠️ 是 mitgenommen\n❌ 不是 gemitgenommen 或 mitgenehmt！\n不定式变 Perfekt：mitnehmen → mitgenommen",
+      "exCN": "我把外套带走了。/ 你把朋友带去了吗？",
+      "exDE": "Ich habe die Jacke mitgenommen. / Hast du deinen Freund mitgenommen?",
+      "exercises": [
+        {
+          "q": "我把外套带走了。",
+          "hint": "die Jacke",
+          "a": "Ich habe die Jacke mitgenommen.",
+          "note": "mit+ge+nomm+en = mitgenommen"
+        },
+        {
+          "q": "你把朋友带去了吗？",
+          "hint": "deinen Freund",
+          "a": "Hast du deinen Freund mitgenommen?",
+          "note": null
+        },
+        {
+          "q": "玛丽亚昨天把孩子带去了公园。",
+          "hint": "die Kinder, in den Park",
+          "a": "Maria hat die Kinder gestern\nin den Park mitgenommen.",
+          "note": null
+        },
+        {
+          "q": "我们把所有东西都带走了。",
+          "hint": "alles",
+          "a": "Wir haben alles mitgenommen.",
+          "note": null
+        },
+        {
+          "q": "你们把什么带去了野餐？",
+          "hint": "zum Picknick, was",
+          "a": "Was habt ihr zum Picknick mitgenommen?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句（Imperativ）",
+      "grammar": "du → Nimm … mit! ⚠️\nihr → Nehmt … mit!\nSie → Nehmen Sie … mit!\n⚠️ du 形式：Nimm（不是 Nehm！）\n⚠️ mit 永远在最后！\n❌ Mitnimm die Tasche!\n✅ Nimm die Tasche mit!",
+      "exCN": "把你的外套带上！/ 一定要带护照！",
+      "exDE": "Nimm deine Jacke mit! / Nimm unbedingt den Reisepass mit!",
+      "exercises": [
+        {
+          "q": "把你的外套带上！（对朋友）",
+          "hint": "deine Jacke",
+          "a": "Nimm deine Jacke mit!",
+          "note": "⚠️ Nimm…mit（不是 Nehm）"
+        },
+        {
+          "q": "请把这个包也带走！（正式）",
+          "hint": "diese Tasche, auch",
+          "a": "Nehmen Sie bitte diese Tasche auch mit!",
+          "note": null
+        },
+        {
+          "q": "孩子们，把书包带上！",
+          "hint": "eure Schulranzen",
+          "a": "Nehmt eure Schulranzen mit, Kinder!",
+          "note": null
+        },
+        {
+          "q": "一定要把护照带上！（对朋友）",
+          "hint": "unbedingt, den Reisepass",
+          "a": "Nimm unbedingt den Reisepass mit!",
+          "note": null
+        },
+        {
+          "q": "请把所有东西都带走！（正式）",
+          "hint": "alles",
+          "a": "Nehmen Sie bitte alles mit!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句（Fragen）",
+      "grammar": "5个提问维度：\nWas（带什么）\nWen（带谁，四格！不是 Wer）\nWohin（带去哪里）\nWarum（为什么）\nWann/Wie oft（时间/频率）\n⚠️ 问人：Wen nimmst du mit?\n  不是 Wer nimmst du mit！",
+      "exCN": "你带什么去野餐？/ 你带谁去派对？",
+      "exDE": "Was nimmst du zum Picknick mit? / Wen nimmst du zur Party mit?",
+      "exercises": [
+        {
+          "q": "你带什么去野餐？",
+          "hint": "zum Picknick",
+          "a": "Was nimmst du zum Picknick mit?",
+          "note": null
+        },
+        {
+          "q": "你带谁去派对？",
+          "hint": "zur Party，问人用 Wen",
+          "a": "Wen nimmst du zur Party mit?",
+          "note": "⚠️ Wen（四格）不是 Wer"
+        },
+        {
+          "q": "你把行李带去哪里了？",
+          "hint": "das Gepäck, wohin",
+          "a": "Wohin hast du das Gepäck mitgenommen?",
+          "note": null
+        },
+        {
+          "q": "你为什么没把外套带上？",
+          "hint": null,
+          "a": "Warum hast du die Jacke nicht mitgenommen?",
+          "note": null
+        },
+        {
+          "q": "玛丽亚带了谁去音乐会？",
+          "hint": "ins Konzert",
+          "a": "Wen hat Maria ins Konzert mitgenommen?",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "endQuote": "Nimm nur das mit, was du wirklich brauchst — und die richtigen Menschen.",
+  "endQuoteCN": "只带上你真正需要的东西——还有对的人。",
+  "related": [
+    {
+      "id": "nehmen",
+      "label": "nehmen",
+      "note": "词根动词（不规则）"
+    }
+  ]
+}

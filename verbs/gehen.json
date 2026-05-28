@@ -1,0 +1,98 @@
+{
+  "id": "gehen",
+  "title": "gehen",
+  "subtitle": "走 / 去 / 行得通",
+  "category": "verbs",
+  "level": ["A1"],
+  "tags": ["sein 完成时", "wohin", "比喻义"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 5,
+    "totalExercises": 39
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位与「假将来时」",
+      "grammar": "gehen 是完全规则动词：\nych gehe / du gehst / er geht / wir gehen / ihr geht / sie gehen\n\n⚠️ 两个重要语序规则：\n① 地点通常放句末（排在同行人物后面）：\n   Thomas geht mit Maria in den Park.\n② 德语极少用将来时！有明确未来时间词时，直接用现在时：\n   ✓ Thomas geht morgen in den Park.\n   ✗ Thomas wird morgen in den Park gehen.（书面感太强）",
+      "exCN": "我回家。／托马斯和玛丽亚去公园。",
+      "exDE": "Ich gehe nach Hause.  /  Thomas geht mit Maria in den Park.",
+      "exercises": [
+        { "q": "我回家。", "hint": "回家 = nach Hause", "a": "Ich gehe nach Hause.", "note": null },
+        { "q": "托马斯去公园。", "hint": "去公园（阳性第四格）= in den Park", "a": "Thomas geht in den Park.", "note": null },
+        { "q": "托马斯和玛丽亚去公园。", "hint": "地点放最后", "a": "Thomas geht mit Maria in den Park.", "note": null },
+        { "q": "托马斯明天去公园。", "hint": "直接用现在时", "a": "Thomas geht morgen in den Park.", "note": "有时间词时用现在时表将来" },
+        { "q": "我们明天和玛丽亚去公园。", "hint": null, "a": "Wir gehen morgen mit Maria in den Park.", "note": null },
+        { "q": "明天，我们和玛丽亚去公园。", "hint": "Morgen 放句首，动词第二位", "a": "Morgen gehen wir mit Maria in den Park.", "note": null },
+        { "q": "周五，我和我兄弟去电影院。", "hint": "电影院（中性第四格）= ins Kino；兄弟 = mein Bruder", "a": "Am Freitag gehe ich mit meinem Bruder ins Kino.", "note": "mit + 第三格：meinem Bruder" }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "疑问句与方向词 hin",
+      "grammar": "疑问句直接把动词提至句首，不需要 do/does 之类的助动词。\n\n⚠️ 问「去哪里」不能只用 wo！\nwo 只能问「静止的位置」，问「目的地方向」要加 hin：\n  口语常用：Wo gehst du hin?（hin 放句末）\n  书面正式：Wohin gehst du?（合并形式）",
+      "exCN": "你去公园吗？／你去哪儿？",
+      "exDE": "Gehst du in den Park?  /  Wo gehst du hin?",
+      "exercises": [
+        { "q": "你和你兄弟去公园吗？", "hint": "mit + 第三格：deinem Bruder", "a": "Gehst du mit deinem Bruder in den Park?", "note": null },
+        { "q": "你明天和玛丽亚去公园吗？", "hint": null, "a": "Gehst du morgen mit Maria in den Park?", "note": null },
+        { "q": "你为什么明天和玛丽亚去公园？", "hint": null, "a": "Warum gehst du morgen mit Maria in den Park?", "note": null },
+        { "q": "你去哪儿？", "hint": "wo... hin（hin 放句末）", "a": "Wo gehst du hin?", "note": "问目的地方向必须加 hin，不能只用 wo" },
+        { "q": "你周一去哪儿？", "hint": null, "a": "Wo gehst du am Montag hin?", "note": null },
+        { "q": "你明天和玛丽亚去哪儿？", "hint": null, "a": "Wo gehst du morgen mit Maria hin?", "note": null },
+        { "q": "你什么时候回家？", "hint": null, "a": "Wann gehst du nach Hause?", "note": null }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "过去时 Perfekt",
+      "grammar": "gehen 表示位置变化，Perfekt 助动词用 sein（不是 haben！）\n过去分词：gegangen（不规则，须记忆）\n\n语序：\n  Ich bin nach Hause gegangen.\n\n从句（dass 引导）：把 gegangen bin 踢至句末：\n  Ich habe gesagt, dass ich nach Hause gegangen bin.",
+      "exCN": "我回家了。",
+      "exDE": "Ich bin nach Hause gegangen.",
+      "exercises": [
+        { "q": "我昨天很早回家了。", "hint": "很早 = früh", "a": "Ich bin gestern früh nach Hause gegangen.", "note": null },
+        { "q": "【从句】我说，我昨天很早回家了。", "hint": "我说 = Ich habe gesagt", "a": "Ich habe gesagt, dass ich gestern früh nach Hause gegangen bin.", "note": "dass 从句：gegangen bin 移至句末" },
+        { "q": "托马斯昨天和他兄弟去公园了。", "hint": "sein Bruder → mit seinem Bruder", "a": "Thomas ist gestern mit seinem Bruder in den Park gegangen.", "note": null },
+        { "q": "【从句】我说，托马斯昨天和他兄弟去公园了。", "hint": null, "a": "Ich habe gesagt, dass Thomas gestern mit seinem Bruder in den Park gegangen ist.", "note": null },
+        { "q": "你回家了吗？", "hint": null, "a": "Bist du nach Hause gegangen?", "note": null },
+        { "q": "你昨天很早回家了吗？", "hint": null, "a": "Bist du gestern früh nach Hause gegangen?", "note": null },
+        { "q": "为什么托马斯昨天这么早回家？", "hint": null, "a": "Warum ist Thomas gestern so früh nach Hause gegangen?", "note": null },
+        { "q": "你昨天去哪儿了？", "hint": "过去分词：hingegangen", "a": "Wo bist du gestern hingegangen?", "note": "hin 融入过去分词：hingegangen" },
+        { "q": "演唱会后你昨天去哪儿了？", "hint": "演唱会后 = nach dem Konzert", "a": "Wo bist du gestern nach dem Konzert hingegangen?", "note": null },
+        { "q": "演唱会后托马斯和玛丽亚去哪儿了？", "hint": null, "a": "Wo ist Thomas gestern nach dem Konzert mit Maria hingegangen?", "note": null }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "引申义：「行得通 / 起作用」",
+      "grammar": "德国人常用 gehen 表示计划「行得通」或设备「能用」：\n  Ja, das geht.（行。）\n  Nein, das geht nicht.（不行。）\n  Mein Handy geht nicht.（我手机坏了。）\n\n⚠️ 过去时避坑：此引申义的过去时不用 Perfekt（ist gegangen 听起来像「自己走了」），直接用 Präteritum：\n  Das ging nicht.（那时不行。）",
+      "exCN": "是的，那行得通。／那行得通吗？",
+      "exDE": "Ja, das geht.  /  Geht das?",
+      "exercises": [
+        { "q": "不，那不行。", "hint": null, "a": "Nein, das geht nicht.", "note": null },
+        { "q": "那行得通吗？", "hint": null, "a": "Geht das?", "note": null },
+        { "q": "为什么那不行？", "hint": null, "a": "Warum geht das nicht?", "note": null },
+        { "q": "我的手机坏了。", "hint": null, "a": "Mein Handy geht nicht.", "note": null },
+        { "q": "我那破手机又不工作了。", "hint": "破手机 = Scheißhandy；又 = wieder", "a": "Mein Scheißhandy geht wieder nicht.", "note": null },
+        { "q": "【过去时】我的手机当时坏了。", "hint": "用 Präteritum", "a": "Mein Handy ging nicht.", "note": "引申义过去时用 ging，不用 ist gegangen" },
+        { "q": "我想去你的派对，但去不了。", "hint": "我想 = Ich wollte；但 = aber", "a": "Ich wollte zu deiner Party kommen, aber es ging nicht.", "note": null }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "问候：「你好吗？」",
+      "grammar": "德语问「你好吗」字面意思是「这对你来说走得怎样？」\n  Wie geht's?（随意版）\n  Wie geht's dir?（更真诚，加第三格代词）\n\n第三格代词：mir / dir / ihm / ihr / uns / euch\n⚠️ 回答主语用第三格代词：\n  Mir geht's gut.（我很好。）\n  Ihm geht's nicht gut.（他感觉不好。）",
+      "exCN": "你好吗？（随意版）／我很好。",
+      "exDE": "Wie geht's?  /  Mir geht's gut.",
+      "exercises": [
+        { "q": "你好吗？（真诚关心版）", "hint": "加第三格代词", "a": "Wie geht's dir?", "note": null },
+        { "q": "我很好。", "hint": null, "a": "Mir geht's gut.", "note": null },
+        { "q": "托马斯好吗？", "hint": null, "a": "Wie geht's Thomas?", "note": null },
+        { "q": "托马斯非常好。", "hint": null, "a": "Thomas geht's sehr gut.", "note": null },
+        { "q": "他感觉不好。", "hint": "他（第三格）= ihm", "a": "Ihm geht's nicht gut.", "note": null },
+        { "q": "她好吗？", "hint": "她（第三格）= ihr", "a": "Wie geht's ihr?", "note": null },
+        { "q": "【过去时】我当时感觉不好。", "hint": "用 Präteritum：ging", "a": "Mir ging es nicht gut.", "note": "「感觉」过去时用 ging，不用 Perfekt" }
+      ]
+    }
+  ]
+}

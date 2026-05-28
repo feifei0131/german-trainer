@@ -1,0 +1,279 @@
+{
+  "id": "ankommen",
+  "title": "ankommen",
+  "subtitle": "到达 / 抵达",
+  "category": "verbs",
+  "level": [
+    "A1"
+  ],
+  "tags": [
+    "可分动词"
+  ],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 32
+  },
+  "endQuote": "Es kommt nicht darauf an, wie schnell du ankommst, sondern dass du ankommst.",
+  "endQuoteCN": "重要的不是你多快到达，而是你到达了。",
+  "related": [
+    {
+      "id": "kommen",
+      "label": "kommen",
+      "note": "词根动词（不规则）"
+    },
+    {
+      "id": "mitkommen",
+      "label": "mitkommen",
+      "note": "一起来（可分动词）"
+    }
+  ],
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位与可分规则",
+      "grammar": "可分动词：an- 前缀，an 放句末\ních komme…an / du kommst…an\ner kommt…an / wir kommen…an\n❌ Ich ankomme.\n✅ Ich komme an.\n⚠️ 不定式与从句：ankommen 合写",
+      "exCN": "我到了。/ 火车到了。/ 玛丽亚什么时候到？",
+      "exDE": "Ich komme an. / Der Zug kommt an. / Wann kommt Maria an?",
+      "exercises": [
+        {
+          "q": "我到了。",
+          "hint": null,
+          "a": "Ich komme an.",
+          "note": "an 在句末！"
+        },
+        {
+          "q": "火车到了。",
+          "hint": "der Zug",
+          "a": "Der Zug kommt an.",
+          "note": null
+        },
+        {
+          "q": "玛丽亚什么时候到？",
+          "hint": "wann",
+          "a": "Wann kommt Maria an?",
+          "note": null
+        },
+        {
+          "q": "你们到了吗？",
+          "hint": null,
+          "a": "Kommt ihr an?",
+          "note": null
+        },
+        {
+          "q": "包裹还没到。",
+          "hint": "das Paket, noch nicht",
+          "a": "Das Paket kommt noch nicht an.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "到达地点介词：in / an / bei",
+      "grammar": "in + Dat：到达城市/国家/封闭空间\n（in Berlin, im Hotel）\nan + Dat：到达边界/月台/站台\n（am Bahnhof, an der Haltestelle）\nbei + Dat：到达某人处（bei Maria）\n⚠️ 车站用 an，不用 in！am Bahnhof",
+      "exCN": "他到达柏林了。/ 火车到站了。/ 包裹到我这里了。",
+      "exDE": "Er kommt in Berlin an. / Der Zug kommt am Bahnhof an. / Das Paket kommt bei mir an.",
+      "exercises": [
+        {
+          "q": "我们到柏林了。",
+          "hint": "in Berlin",
+          "a": "Wir kommen in Berlin an.",
+          "note": null
+        },
+        {
+          "q": "火车到站了。",
+          "hint": "am Bahnhof",
+          "a": "Der Zug kommt am Bahnhof an.",
+          "note": "车站用 an，不用 in"
+        },
+        {
+          "q": "包裹到我这里了。",
+          "hint": "bei mir",
+          "a": "Das Paket kommt bei mir an.",
+          "note": null
+        },
+        {
+          "q": "你们到目的地了吗？",
+          "hint": "am Ziel",
+          "a": "Kommt ihr am Ziel an?",
+          "note": null
+        },
+        {
+          "q": "托马斯今晚到慕尼黑。",
+          "hint": "heute Abend, in München",
+          "a": "Thomas kommt heute Abend in München an.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语放动词之后，an 始终在句末\nSubjekt + kommt + 时间 + 地点 + an\n常用：um…Uhr / pünktlich / zu spät\nfrüh / endlich / bald\n⚠️ zu spät ankommen（晚点）：超高频！",
+      "exCN": "火车准时到站。/ 她终于到了！/ 我们十点到柏林。",
+      "exDE": "Der Zug kommt pünktlich an. / Sie kommt endlich an! / Wir kommen um 10 Uhr in Berlin an.",
+      "exercises": [
+        {
+          "q": "火车准时到站。",
+          "hint": null,
+          "a": "Der Zug kommt pünktlich an.",
+          "note": null
+        },
+        {
+          "q": "她终于到了！",
+          "hint": null,
+          "a": "Sie kommt endlich an!",
+          "note": null
+        },
+        {
+          "q": "我们十点到柏林。",
+          "hint": "um 10 Uhr, in Berlin",
+          "a": "Wir kommen um 10 Uhr in Berlin an.",
+          "note": null
+        },
+        {
+          "q": "托马斯又晚到了。",
+          "hint": "wieder, zu spät",
+          "a": "Thomas kommt wieder zu spät an.",
+          "note": null
+        },
+        {
+          "q": "包裹什么时候到？",
+          "hint": "wann",
+          "a": "Wann kommt das Paket an?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "过去时 Perfekt",
+      "grammar": "sein + angekommen\nan + ge + komm + en = angekommen\ních bin / du bist / er ist … angekommen\n⚠️ 助动词是 sein，不是 haben！\n⚠️ 是 an-ge-kommen，不是 geankommen！",
+      "exCN": "我们昨天到柏林了。/ 包裹到了吗？/ 火车晚点了。",
+      "exDE": "Wir sind gestern in Berlin angekommen. / Ist das Paket angekommen? / Der Zug ist zu spät angekommen.",
+      "exercises": [
+        {
+          "q": "我们昨天到柏林了。",
+          "hint": "gestern, in Berlin",
+          "a": "Wir sind gestern in Berlin angekommen.",
+          "note": "sein + angekommen"
+        },
+        {
+          "q": "包裹到了吗？",
+          "hint": null,
+          "a": "Ist das Paket angekommen?",
+          "note": null
+        },
+        {
+          "q": "火车晚点了。",
+          "hint": "zu spät",
+          "a": "Der Zug ist zu spät angekommen.",
+          "note": null
+        },
+        {
+          "q": "玛丽亚什么时候到的？",
+          "hint": null,
+          "a": "Wann ist Maria angekommen?",
+          "note": null
+        },
+        {
+          "q": "他们终于到了！",
+          "hint": null,
+          "a": "Sie sind endlich angekommen!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句（Imperativ）",
+      "grammar": "du → Komm an!\nihr → Kommt an!\nSie → Kommen Sie an!\n⚠️ an 在句末！Komm an!\n（不是 Ankomm!）\n实际常用搭配：\nKomm pünktlich an!\nRuf an, wenn du ankommst!",
+      "exCN": "准时到！/ 到了给我发消息！/ 请准时到达！（正式）",
+      "exDE": "Komm pünktlich an! / Schreib mir, wenn du ankommst! / Kommen Sie bitte pünktlich an!",
+      "exercises": [
+        {
+          "q": "准时到！（对朋友）",
+          "hint": null,
+          "a": "Komm pünktlich an!",
+          "note": "an 在句末！"
+        },
+        {
+          "q": "到了给我发消息！",
+          "hint": "schreib mir, wenn du ankommst",
+          "a": "Schreib mir, wenn du ankommst!",
+          "note": "从句中动词合写"
+        },
+        {
+          "q": "请准时到达！（正式）",
+          "hint": null,
+          "a": "Kommen Sie bitte pünktlich an!",
+          "note": null
+        },
+        {
+          "q": "快点到！别再晚了！",
+          "hint": "nicht wieder zu spät",
+          "a": "Komm an! Nicht wieder zu spät!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句（Fragen）",
+      "grammar": "5个维度：\nWo（在哪里到达，an 在句末）\nWann / Um wie viel Uhr（时间）\nWarum（为什么，常问晚点）\nWie / Womit（方式/交通）\nWer / Bei wem（谁到达）\n⚠️ Wo kommen Sie an? — an 在句末！",
+      "exCN": "你什么时候到？/ 火车几点到站？/ 你怎么来的？",
+      "exDE": "Wann kommst du an? / Um wie viel Uhr kommt der Zug an? / Wie bist du angekommen?",
+      "exercises": [
+        {
+          "q": "你什么时候到？",
+          "hint": null,
+          "a": "Wann kommst du an?",
+          "note": null
+        },
+        {
+          "q": "火车几点到站？",
+          "hint": "um wie viel Uhr, der Zug",
+          "a": "Um wie viel Uhr kommt der Zug an?",
+          "note": null
+        },
+        {
+          "q": "你们在哪里到达？",
+          "hint": "wo",
+          "a": "Wo kommt ihr an?",
+          "note": null
+        },
+        {
+          "q": "包裹为什么还没到？",
+          "hint": "warum, noch nicht",
+          "a": "Warum ist das Paket noch nicht angekommen?",
+          "note": null
+        },
+        {
+          "q": "你怎么来的？",
+          "hint": "交通方式",
+          "a": "Wie bist du angekommen?",
+          "note": null
+        },
+        {
+          "q": "谁先到的？",
+          "hint": "Wer, zuerst",
+          "a": "Wer ist zuerst angekommen?",
+          "note": null
+        },
+        {
+          "q": "玛丽亚昨天几点到柏林的？",
+          "hint": "um wie viel Uhr, in Berlin",
+          "a": "Um wie viel Uhr ist Maria gestern in Berlin angekommen?",
+          "note": null
+        },
+        {
+          "q": "你是准时到还是晚到的？",
+          "hint": "pünktlich oder zu spät",
+          "a": "Bist du pünktlich oder zu spät angekommen?",
+          "note": null
+        }
+      ]
+    }
+  ]
+}
