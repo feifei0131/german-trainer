@@ -188,6 +188,48 @@
           ],
           "sections": 6,
           "exercises": 32
+        },
+        {
+          "id": "machen",
+          "title": "machen",
+          "subtitle": "做 / 制作 / 让……",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "规则动词",
+            "高频动词"
+          ],
+          "sections": 6,
+          "exercises": 27
+        },
+        {
+          "id": "anmachen-ausmachen",
+          "title": "anmachen & ausmachen",
+          "subtitle": "开 / 关（可分动词对比）",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词",
+            "对比训练"
+          ],
+          "sections": 6,
+          "exercises": 23
+        },
+        {
+          "id": "mitmachen",
+          "title": "mitmachen",
+          "subtitle": "参与 / 一起做 / 配合",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词",
+            "高频动词"
+          ],
+          "sections": 6,
+          "exercises": 24
         }
       ]
     },
