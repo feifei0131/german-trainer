@@ -11,14 +11,8 @@
           "id": "sein",
           "title": "sein",
           "subtitle": "是 / 在",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "系动词",
-            "完全不规则",
-            "Präteritum"
-          ],
+          "level": ["A1"],
+          "tags": ["系动词", "完全不规则", "Präteritum"],
           "sections": 6,
           "exercises": 30
         },
@@ -26,14 +20,8 @@
           "id": "gehen",
           "title": "gehen",
           "subtitle": "走 / 去 / 行得通",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "sein 完成时",
-            "wohin"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "sein 完成时", "wohin"],
           "sections": 5,
           "exercises": 39
         },
@@ -41,14 +29,8 @@
           "id": "geben",
           "title": "geben",
           "subtitle": "给 / es gibt 有",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "双宾语",
-            "es gibt"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "双宾语", "es gibt"],
           "sections": 8,
           "exercises": 32
         },
@@ -56,13 +38,8 @@
           "id": "essen",
           "title": "essen",
           "subtitle": "吃",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "e→i 变音"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "e→i 变音"],
           "sections": 6,
           "exercises": 30
         },
@@ -70,13 +47,8 @@
           "id": "helfen",
           "title": "helfen",
           "subtitle": "帮助",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "第三格宾语"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "第三格宾语"],
           "sections": 6,
           "exercises": 32
         },
@@ -84,14 +56,8 @@
           "id": "warten",
           "title": "warten",
           "subtitle": "等待",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "规则动词",
-            "介词 auf",
-            "seit + 现在时"
-          ],
+          "level": ["A1"],
+          "tags": ["规则动词", "介词 auf", "seit + 现在时"],
           "sections": 5,
           "exercises": 34
         },
@@ -99,13 +65,8 @@
           "id": "fahren",
           "title": "fahren",
           "subtitle": "乘坐 · 驾驶 · 前往",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "sein 完成时"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "sein 完成时"],
           "sections": 7,
           "exercises": 34
         },
@@ -113,13 +74,8 @@
           "id": "lesen",
           "title": "lesen",
           "subtitle": "阅读 / 读",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "e→ie 变音"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "e→ie 变音"],
           "sections": 6,
           "exercises": 32
         },
@@ -127,13 +83,8 @@
           "id": "nehmen",
           "title": "nehmen",
           "subtitle": "拿 / 取 / 乘坐",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词",
-            "e→i 变音"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词", "e→i 变音"],
           "sections": 6,
           "exercises": 30
         },
@@ -141,12 +92,8 @@
           "id": "mitnehmen",
           "title": "mitnehmen",
           "subtitle": "带走 / 随身携带 / 顺带",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "可分动词"
-          ],
+          "level": ["A1"],
+          "tags": ["可分动词"],
           "sections": 6,
           "exercises": 30
         },
@@ -154,12 +101,8 @@
           "id": "kommen",
           "title": "kommen",
           "subtitle": "来 / 过来",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "不规则动词"
-          ],
+          "level": ["A1"],
+          "tags": ["不规则动词"],
           "sections": 6,
           "exercises": 32
         },
@@ -167,12 +110,8 @@
           "id": "mitkommen",
           "title": "mitkommen",
           "subtitle": "一起来 / 跟来",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "可分动词"
-          ],
+          "level": ["A1"],
+          "tags": ["可分动词"],
           "sections": 6,
           "exercises": 32
         },
@@ -180,12 +119,8 @@
           "id": "ankommen",
           "title": "ankommen",
           "subtitle": "到达 / 抵达",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "可分动词"
-          ],
+          "level": ["A1"],
+          "tags": ["可分动词"],
           "sections": 6,
           "exercises": 32
         },
@@ -193,13 +128,8 @@
           "id": "machen",
           "title": "machen",
           "subtitle": "做 / 制作 / 让……",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "规则动词",
-            "高频动词"
-          ],
+          "level": ["A1"],
+          "tags": ["规则动词", "高频动词"],
           "sections": 6,
           "exercises": 27
         },
@@ -207,13 +137,8 @@
           "id": "anmachen-ausmachen",
           "title": "anmachen & ausmachen",
           "subtitle": "开 / 关（可分动词对比）",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "可分动词",
-            "对比训练"
-          ],
+          "level": ["A1"],
+          "tags": ["可分动词", "对比训练"],
           "sections": 6,
           "exercises": 23
         },
@@ -221,13 +146,8 @@
           "id": "mitmachen",
           "title": "mitmachen",
           "subtitle": "参与 / 一起做 / 配合",
-          "level": [
-            "A1"
-          ],
-          "tags": [
-            "可分动词",
-            "高频动词"
-          ],
+          "level": ["A1"],
+          "tags": ["可分动词", "高频动词"],
           "sections": 6,
           "exercises": 24
         }
@@ -252,25 +172,46 @@
           "id": "verb-position",
           "title": "动词的位置",
           "subtitle": "V2 规则 · 疑问句 · 祈使句",
-          "level": [
-            "A1",
-            "A2"
-          ],
-          "tags": [
-            "句子结构",
-            "语序"
-          ],
+          "level": ["A1", "A2"],
+          "tags": ["句子结构", "语序"],
           "sections": 8,
           "exercises": 36
         },
         {
-         "id": "negation",
-         "title": "否定句",
-         "subtitle": "nicht · kein/keine · 位置规则",
-         "level": ["A1", "A2"],
-         "tags": ["句子结构", "否定句"],
-         "sections": 5,
-         "exercises": 30
+          "id": "negation",
+          "title": "否定句",
+          "subtitle": "nicht · kein/keine · 位置规则",
+          "level": ["A1", "A2"],
+          "tags": ["句子结构", "否定句"],
+          "sections": 5,
+          "exercises": 30
+        },
+        {
+          "id": "satzverbindungen-1",
+          "title": "句子连接 Teil 1",
+          "subtitle": "und · oder · aber",
+          "level": ["A1"],
+          "tags": ["句子连接", "并列连接词", "转折"],
+          "sections": 4,
+          "exercises": 28
+        },
+        {
+          "id": "satzverbindungen-2",
+          "title": "句子连接 Teil 2",
+          "subtitle": "denn · weil · da · deshalb · daher",
+          "level": ["A1", "A2"],
+          "tags": ["句子连接", "原因从句", "结果", "动词末位"],
+          "sections": 5,
+          "exercises": 28
+        },
+        {
+          "id": "satzverbindungen-3",
+          "title": "句子连接 Teil 3",
+          "subtitle": "obwohl · trotzdem",
+          "level": ["A2", "B1"],
+          "tags": ["句子连接", "让步从句", "转折副词"],
+          "sections": 4,
+          "exercises": 26
         }
       ]
     }
