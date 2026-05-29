@@ -212,6 +212,15 @@
           "tags": ["句子连接", "让步从句", "转折副词"],
           "sections": 4,
           "exercises": 26
+        },
+        {
+          "id": "satzverbindungen-4",
+          "title": "句子连接 Teil 4",
+          "subtitle": "dass · damit",
+          "level": ["A2"],
+          "tags": ["句子连接", "内容从句", "目的从句", "动词末位"],
+          "sections": 4,
+          "exercises": 28
         }
       ]
     }
