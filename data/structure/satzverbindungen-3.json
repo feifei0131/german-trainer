@@ -1,0 +1,209 @@
+{
+  "id": "satzverbindungen-3",
+  "title": "句子连接 Teil 3",
+  "subtitle": "obwohl · trotzdem",
+  "category": "structure",
+  "level": ["A2", "B1"],
+  "tags": ["句子连接", "让步从句", "转折副词"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 4,
+    "totalExercises": 26
+  },
+  "endQuote": "Obwohl der Weg schwierig ist, gehe ich weiter.",
+  "endQuoteCN": "尽管路途艰难，我仍继续前行。",
+  "sections": [
+    {
+      "num": 1,
+      "title": "obwohl — 尽管（从句，动词末位）",
+      "grammar": "obwohl 引导让步从句，动词移到句末。\n结构 A：主句 , obwohl + … + 动词(末)\n结构 B：Obwohl + … + 动词(末), 主句\n⚠️ obwohl 前或后必须有逗号\n⚠️ obwohl 从句动词永远在最后！\n情态动词放不定式之后",
+      "exCN": "她去上班，尽管她病了。",
+      "exDE": "Sie geht zur Arbeit,\nobwohl sie krank ist.",
+      "exercises": [
+        {
+          "q": "尽管外面在下雨，\n他们还是去散步了。",
+          "hint": "obwohl 放句首 / spazieren gehen",
+          "a": "Obwohl es draußen regnet,\ngehen sie spazieren.",
+          "note": "⚠️ obwohl 从句动词在句末"
+        },
+        {
+          "q": "玛丽很累，\n尽管如此她还是去了派对。",
+          "hint": "obwohl 放句尾 / zur Party gehen",
+          "a": "Maria geht zur Party,\nobwohl sie müde ist.",
+          "note": null
+        },
+        {
+          "q": "尽管这道菜很贵，\n汉娜还是点了它。",
+          "hint": "teuer / bestellen",
+          "a": "Obwohl das Gericht teuer ist,\nbestellt Hanna es.",
+          "note": null
+        },
+        {
+          "q": "尽管他每天学德语，\n他的德语还是不太好。",
+          "hint": "jeden Tag lernen / nicht so gut",
+          "a": "Obwohl er jeden Tag Deutsch lernt,\nist sein Deutsch nicht so gut.",
+          "note": "obwohl 句首时，主句动词倒装"
+        },
+        {
+          "q": "她买了那件毛衣，\n尽管她没有很多钱。",
+          "hint": "nicht viel Geld haben",
+          "a": "Sie kauft den Pullover,\nobwohl sie nicht viel Geld hat.",
+          "note": null
+        },
+        {
+          "q": "尽管明天有考试，\n托马斯今晚还是去看电影。",
+          "hint": "Prüfung haben / ins Kino gehen",
+          "a": "Obwohl er morgen eine Prüfung hat,\ngeht Thomas heute Abend ins Kino.",
+          "note": null
+        },
+        {
+          "q": "尽管这个城市很贵，\n她还是想搬去那里住。",
+          "hint": "teuer / umziehen möchten",
+          "a": "Obwohl die Stadt sehr teuer ist,\nmöchte sie dorthin umziehen.",
+          "note": "情态动词 möchte 也倒装"
+        },
+        {
+          "q": "他不喜欢运动，\n尽管他知道运动对身体好。",
+          "hint": "Sport treiben / wissen / gesund",
+          "a": "Er treibt keinen Sport,\nobwohl er weiß, dass es gesund ist.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "trotzdem — 尽管如此（副词，动词倒装）",
+      "grammar": "trotzdem 是副词，表示：尽管如此，还是……\n结构：主句 1. Trotzdem + 动词 + 主语\n⚠️ trotzdem 放句首时动词紧跟其后\ntrotzdem 也可放句中，动词不倒装：\n  Er geht trotzdem zur Arbeit.",
+      "exCN": "他很累。他还是去工作了。",
+      "exDE": "Er ist müde.\nTrotzdem geht er zur Arbeit.",
+      "exercises": [
+        {
+          "q": "外面很冷。\n玛丽还是穿了一件薄外套。",
+          "hint": "trotzdem 放句首 / dünne Jacke anziehen",
+          "a": "Es ist kalt draußen.\nTrotzdem zieht Maria eine dünne Jacke an.",
+          "note": "⚠️ trotzdem 后动词倒装"
+        },
+        {
+          "q": "这家餐厅很贵。\n他们还是每周去那里。",
+          "hint": "trotzdem / jede Woche hingehen",
+          "a": "Das Restaurant ist teuer.\nTrotzdem gehen sie jede Woche hin.",
+          "note": null
+        },
+        {
+          "q": "汉娜没有时间。\n她还是帮助了我。",
+          "hint": "trotzdem / keine Zeit / helfen",
+          "a": "Hanna hatte keine Zeit.\nTrotzdem hat sie mir geholfen.",
+          "note": null
+        },
+        {
+          "q": "医生说他必须休息。\n他还是去了工作。",
+          "hint": "sich ausruhen müssen / trotzdem",
+          "a": "Der Arzt sagt, er muss sich ausruhen.\nTrotzdem geht er zur Arbeit.",
+          "note": null
+        },
+        {
+          "q": "这本书很难。\n他还是把它读完了。",
+          "hint": "schwierig / trotzdem / zu Ende lesen",
+          "a": "Das Buch ist sehr schwierig.\nTrotzdem hat er es zu Ende gelesen.",
+          "note": null
+        },
+        {
+          "q": "托马斯知道抽烟不好。\n他还是抽烟。",
+          "hint": "wissen / Rauchen / ungesund / trotzdem",
+          "a": "Thomas weiß, dass Rauchen ungesund ist.\nTrotzdem raucht er.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "obwohl vs. trotzdem — 互换改写",
+      "grammar": "两词逻辑相同，方向相反：\nobwohl → 引出条件（从句）\ntrotzdem → 说出结果（主句）\n同一意思，两种说法：\n  Es regnet, obwohl es Sommer ist.\n  Es ist Sommer. Trotzdem regnet es.\n⚠️ 不能同时使用！\n*obwohl ... trotzdem* = 错误！",
+      "exCN": "他病了，但还是去上学了。",
+      "exDE": "Er geht zur Schule,\nobwohl er krank ist.\n= Er ist krank.\nTrotzdem geht er zur Schule.",
+      "exercises": [
+        {
+          "q": "用 trotzdem 改写：\nObwohl sie krank ist,\ngeht sie zur Schule.",
+          "hint": "trotzdem / 两个独立句",
+          "a": "Sie ist krank.\nTrotzdem geht sie zur Schule.",
+          "note": "trotzdem 后动词倒装"
+        },
+        {
+          "q": "用 obwohl 改写：\nEs ist sehr spät.\nTrotzdem arbeitet er noch.",
+          "hint": "obwohl / 合并为一句",
+          "a": "Er arbeitet noch,\nobwohl es sehr spät ist.",
+          "note": "obwohl 从句动词在句末"
+        },
+        {
+          "q": "用 trotzdem 改写：\nObwohl das Wetter schlecht ist,\ngehen die Kinder nach draußen.",
+          "hint": "trotzdem / 两个独立句",
+          "a": "Das Wetter ist schlecht.\nTrotzdem gehen die Kinder nach draußen.",
+          "note": null
+        },
+        {
+          "q": "用 obwohl 改写：\nEr hat kein Geld.\nTrotzdem kauft er ein neues Fahrrad.",
+          "hint": "obwohl / 合并为一句",
+          "a": "Er kauft ein neues Fahrrad,\nobwohl er kein Geld hat.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "综合自由练习",
+      "grammar": "选择 obwohl 或 trotzdem 造句：\n需要在一句话里说条件+结果 → obwohl\n用两句话，第二句表结果 → trotzdem\n记住最重要的规则：\nobwohl → 动词句末\ntrotzdem → 动词倒装\n⚠️ 两词不能同时出现！",
+      "exCN": "尽管路很远，她还是走路去了。",
+      "exDE": "Obwohl der Weg weit ist,\ngeht sie zu Fuß.\n= Der Weg ist weit.\nTrotzdem geht sie zu Fuß.",
+      "exercises": [
+        {
+          "q": "他昨晚没睡好，\n但他今天精神很好。",
+          "hint": "obwohl / schlecht schlafen / fit sein",
+          "a": "Obwohl er letzte Nacht schlecht\ngeschlafen hat, ist er heute fit.",
+          "note": null
+        },
+        {
+          "q": "她不喜欢猫，\n但她养了一只。",
+          "hint": "obwohl / keine Katzen mögen",
+          "a": "Sie hat eine Katze,\nobwohl sie keine Katzen mag.",
+          "note": null
+        },
+        {
+          "q": "天气预报说会下雨。\n我们还是去爬山了。",
+          "hint": "trotzdem / Regen / wandern gehen",
+          "a": "Der Wetterbericht sagt Regen.\nTrotzdem sind wir wandern gegangen.",
+          "note": null
+        },
+        {
+          "q": "尽管他们住得很近，\n他们很少见面。",
+          "hint": "obwohl / in der Nähe / sich selten sehen",
+          "a": "Obwohl sie in der Nähe wohnen,\nsehen sie sich selten.",
+          "note": null
+        },
+        {
+          "q": "这份工作薪水不高。\n她还是接受了。",
+          "hint": "trotzdem / Gehalt / Stelle annehmen",
+          "a": "Das Gehalt ist nicht hoch.\nTrotzdem hat sie die Stelle angenommen.",
+          "note": null
+        },
+        {
+          "q": "尽管他们争吵了，\n他们还是好朋友。",
+          "hint": "obwohl / sich streiten / Freunde bleiben",
+          "a": "Obwohl sie sich gestritten haben,\nsind sie immer noch gute Freunde.",
+          "note": null
+        },
+        {
+          "q": "医生建议她多休息。\n她还是继续工作。",
+          "hint": "trotzdem / Ruhe empfehlen / weiterarbeiten",
+          "a": "Der Arzt empfiehlt mehr Ruhe.\nTrotzdem arbeitet sie weiter.",
+          "note": null
+        },
+        {
+          "q": "尽管她已经会说三门外语，\n她还想学日语。",
+          "hint": "obwohl / drei Fremdsprachen / Japanisch",
+          "a": "Obwohl sie schon drei Fremdsprachen\nspricht, möchte sie noch Japanisch lernen.",
+          "note": null
+        }
+      ]
+    }
+  ]
+}
