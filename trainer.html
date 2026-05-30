@@ -300,6 +300,41 @@ select.tb-sel option { background: #1C2330; }
 }
 .home-btn:hover { background:var(--accent-mid); }
 
+/* Related verbs block on finish card */
+.related-block {
+  width: 100%; margin-top: 6px;
+  border-top: 1px solid var(--border);
+  padding-top: 16px;
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+}
+.related-label {
+  font-size: 11px; color: var(--text-muted);
+  letter-spacing: 0.06em; font-weight: 500;
+}
+.related-links {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+}
+.related-card {
+  display: flex; flex-direction: column; align-items: flex-start;
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 16px;
+  text-decoration: none; color: inherit;
+  transition: border-color 0.18s, background 0.18s;
+  min-width: 130px;
+}
+.related-card:hover {
+  border-color: var(--border-acc);
+  background: var(--surface);
+}
+.related-card-verb {
+  font-family: 'DM Serif Display', serif;
+  font-size: 20px; color: var(--accent); line-height: 1;
+  margin-bottom: 3px;
+}
+.related-card-note {
+  font-size: 11px; color: var(--text-muted); font-style: italic;
+}
+
 /* Loading / error */
 .card.c-loading {
   background:var(--surface); border:1px solid var(--border);
@@ -581,14 +616,33 @@ function buildSlideHTML(sl) {
     </div>`;
   }
   if (sl.type === 'finish') {
+    // 金句：优先用 JSON 里的 endQuote，没有就用默认
+    const eq  = unitData.endQuote   || '';
+    const eqcn= unitData.endQuoteCN || '';
+    const quoteHTML = eq
+      ? `<div class="fin-quote">${esc(eq)}<div class="fqcn">${esc(eqcn)}</div></div>`
+      : '';
+
+    // 相关动词链接
+    const related = unitData.related || [];
+    const relatedHTML = related.length > 0 ? `
+      <div class="related-block">
+        <span class="related-label">继续练习相关动词</span>
+        <div class="related-links">
+          ${related.map(r => `
+            <a class="related-card" href="trainer.html?category=${CATEGORY}&unit=${r.id}">
+              <span class="related-card-verb">${esc(r.label)}</span>
+              <span class="related-card-note">${esc(r.note || '')}</span>
+            </a>`).join('')}
+        </div>
+      </div>` : '';
+
     return `<div class="card c-finish">
       <div class="fin-trophy">🎉</div>
       <div class="fin-title">训练完成！</div>
       <div class="fin-de">Glückwunsch! Du hast alle ${TOTAL_EX()} Übungen abgeschlossen!</div>
-      <div class="fin-quote">
-        Es gibt vieles im Leben zu geben — fang heute damit an.
-        <div class="fqcn">生活中有许多值得给予的事情——从今天开始吧。</div>
-      </div>
+      ${quoteHTML}
+      ${relatedHTML}
       <a class="home-btn" href="index.html">← 返回训练列表</a>
     </div>`;
   }

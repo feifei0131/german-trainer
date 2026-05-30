@@ -1,0 +1,230 @@
+{
+  "id": "satzverbindungen-2",
+  "title": "句子连接 Teil 2",
+  "subtitle": "denn · weil · da · deshalb · daher",
+  "category": "structure",
+  "level": ["A1", "A2"],
+  "tags": ["句子连接", "原因从句", "结果", "动词末位"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 5,
+    "totalExercises": 28
+  },
+  "endQuote": "Ich lerne jeden Tag Deutsch,\nweil ich die Sprache wirklich liebe.",
+  "endQuoteCN": "我每天学德语，因为我真的热爱这门语言。",
+  "sections": [
+    {
+      "num": 1,
+      "title": "denn — 因为（并列主句）",
+      "grammar": "denn 是并列连接词，解释原因。\n结构：主句 1 , denn + 主句 2\n⚠️ denn 前必须加逗号\n⚠️ denn 后语序不变（主语+动词）\ndenn 不能放在句首",
+      "exCN": "我待在家里，因为外面在下雨。",
+      "exDE": "Ich bleibe zu Hause,\ndenn es regnet draußen.",
+      "exercises": [
+        {
+          "q": "我喝茶，\n因为我不喜欢咖啡。",
+          "hint": null,
+          "a": "Ich trinke Tee,\ndenn ich mag keinen Kaffee.",
+          "note": "⚠️ denn 前必须加逗号"
+        },
+        {
+          "q": "托马斯不来，因为他生病了。",
+          "hint": "krank sein",
+          "a": "Thomas kommt nicht,\ndenn er ist krank.",
+          "note": null
+        },
+        {
+          "q": "孩子们很高兴，\n因为今天没有学校。",
+          "hint": "keine Schule haben",
+          "a": "Die Kinder sind glücklich,\ndenn sie haben heute keine Schule.",
+          "note": null
+        },
+        {
+          "q": "我们坐出租车，\n因为公交车不来了。",
+          "hint": "mit dem Taxi / der Bus kommt nicht mehr",
+          "a": "Wir fahren mit dem Taxi,\ndenn der Bus kommt nicht mehr.",
+          "note": null
+        },
+        {
+          "q": "玛丽穿外套，\n因为外面很冷。",
+          "hint": "einen Mantel anziehen / kalt",
+          "a": "Maria zieht einen Mantel an,\ndenn es ist kalt draußen.",
+          "note": null
+        },
+        {
+          "q": "我早睡，\n因为明天我很早有课。",
+          "hint": "früh schlafen gehen / früh Unterricht",
+          "a": "Ich gehe früh schlafen,\ndenn ich habe morgen früh Unterricht.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "weil — 因为（从句，动词末位）",
+      "grammar": "weil 引导原因从句，动词移到句末。\n结构：主句 , weil + 主语 + … + 动词\n⚠️ weil 前必须加逗号\n⚠️ weil 从句动词永远在最后！\n情态动词也移到句末，放不定式之后",
+      "exCN": "我学德语，因为我想住在德国。",
+      "exDE": "Ich lerne Deutsch,\nweil ich in Deutschland wohnen möchte.",
+      "exercises": [
+        {
+          "q": "她买这件裙子，\n因为它很便宜。",
+          "hint": "das Kleid / billig",
+          "a": "Sie kauft das Kleid,\nweil es billig ist.",
+          "note": "⚠️ weil 从句动词在句末"
+        },
+        {
+          "q": "我们待在家里，\n因为外面在下雪。",
+          "hint": "schneien",
+          "a": "Wir bleiben zu Hause,\nweil es draußen schneit.",
+          "note": null
+        },
+        {
+          "q": "汉娜不喝咖啡，\n因为她会睡不着。",
+          "hint": "dann nicht schlafen können",
+          "a": "Hanna trinkt keinen Kaffee,\nweil sie dann nicht schlafen kann.",
+          "note": "情态动词 kann 也在句末"
+        },
+        {
+          "q": "他学习努力，\n因为他想通过考试。",
+          "hint": "Prüfung bestehen möchten",
+          "a": "Er lernt viel,\nweil er die Prüfung bestehen möchte.",
+          "note": null
+        },
+        {
+          "q": "孩子哭了，\n因为他找不到妈妈。",
+          "hint": "weinen / Mutter nicht finden können",
+          "a": "Das Kind weint,\nweil es seine Mutter nicht finden kann.",
+          "note": null
+        },
+        {
+          "q": "我买这本书，\n因为我的老师推荐了它。",
+          "hint": "empfehlen → empfohlen hat",
+          "a": "Ich kaufe das Buch,\nweil mein Lehrer es empfohlen hat.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "da — 既然 / 由于（从句在句首）",
+      "grammar": "da 与 weil 结构相同，动词也在句末。\nda 引用双方已知的原因（既然……）\nda 从句通常放在主句前面。\n结构：Da + … + 动词(末), 主句（倒装）\n⚠️ da 从句放句首时，\n主句动词也要提前（倒装）！",
+      "exCN": "既然你已经在这里了，我们可以开始了。",
+      "exDE": "Da du schon hier bist,\nkönnen wir anfangen.",
+      "exercises": [
+        {
+          "q": "既然你懂德语，\n你可以帮我。",
+          "hint": "Deutsch können / helfen",
+          "a": "Da du Deutsch kannst,\nkannst du mir helfen.",
+          "note": "da 从句后，主句动词倒装"
+        },
+        {
+          "q": "由于今天是周日，\n商店关门了。",
+          "hint": "Sonntag / Geschäfte geschlossen",
+          "a": "Da heute Sonntag ist,\nsind die Geschäfte geschlossen.",
+          "note": null
+        },
+        {
+          "q": "既然你已经吃完了，\n我们可以走了。",
+          "hint": "fertig essen / gehen können",
+          "a": "Da du schon gegessen hast,\nkönnen wir gehen.",
+          "note": null
+        },
+        {
+          "q": "由于外面很热，\n我们喝很多水。",
+          "hint": "heiß / viel Wasser trinken",
+          "a": "Da es draußen sehr heiß ist,\ntrinken wir viel Wasser.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "deshalb / daher — 所以（结果，动词倒装）",
+      "grammar": "deshalb / daher 是副词，表示结果（所以）。\n结构：主句 1 , deshalb + 动词 + 主语\n⚠️ deshalb 前必须加逗号\n⚠️ deshalb 放句首时动词紧跟其后！\ndeshalb 和 daher 含义相同，可互换",
+      "exCN": "他生病了，所以他不来了。",
+      "exDE": "Er ist krank,\ndaher kommt er nicht.",
+      "exercises": [
+        {
+          "q": "玛丽很累，\n所以她早睡。",
+          "hint": "deshalb / früh schlafen gehen",
+          "a": "Maria ist müde,\ndeshalb geht sie früh schlafen.",
+          "note": "⚠️ deshalb 后动词倒装"
+        },
+        {
+          "q": "今天很热，\n所以我们去游泳。",
+          "hint": "deshalb / schwimmen gehen",
+          "a": "Heute ist es sehr heiß,\ndeshalb gehen wir schwimmen.",
+          "note": null
+        },
+        {
+          "q": "公交车晚点了，\n所以托马斯迟到了。",
+          "hint": "daher / Verspätung / zu spät kommen",
+          "a": "Der Bus hatte Verspätung,\ndaher kam Thomas zu spät.",
+          "note": null
+        },
+        {
+          "q": "他没有钱，\n所以他不买新手机。",
+          "hint": "deshalb / kein Geld",
+          "a": "Er hat kein Geld,\ndeshalb kauft er kein neues Handy.",
+          "note": null
+        },
+        {
+          "q": "明天有考试，\n所以我现在学习。",
+          "hint": "deshalb / Prüfung",
+          "a": "Morgen habe ich eine Prüfung,\ndeshalb lerne ich jetzt.",
+          "note": null
+        },
+        {
+          "q": "她喜欢动物，\n所以她想养一只猫。",
+          "hint": "daher / Tiere mögen / Katze",
+          "a": "Sie mag Tiere,\ndaher möchte sie eine Katze haben.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "综合对比 — denn / weil / deshalb",
+      "grammar": "三种结构，三种动词位置：\ndenn → 正常语序（主语+动词）\nweil/da → 动词移到句末\ndeshalb/daher → 动词倒装（句首时）\n⚠️ 不能混用结构！",
+      "exCN": "我住在德国，所以我学德语。",
+      "exDE": "Ich wohne in Deutschland,\ndeshalb lerne ich Deutsch.",
+      "exercises": [
+        {
+          "q": "用 weil 改写：\n我喝茶，因为不喜欢咖啡。",
+          "hint": "weil / mögen / kein",
+          "a": "Ich trinke Tee,\nweil ich keinen Kaffee mag.",
+          "note": "weil 从句动词在句末"
+        },
+        {
+          "q": "用 denn 改写：\n他很早来，因为有很多事要做。",
+          "hint": "denn / viel zu tun haben",
+          "a": "Er kommt früh,\ndenn er hat viel zu tun.",
+          "note": "denn 后语序不变"
+        },
+        {
+          "q": "用 deshalb 改写：\n他很累，所以他回家了。",
+          "hint": "deshalb / nach Hause gehen",
+          "a": "Er ist müde,\ndeshalb geht er nach Hause.",
+          "note": "deshalb 后动词倒装"
+        },
+        {
+          "q": "用 weil 造句：\n玛丽学中文，因为喜欢中国文化。",
+          "hint": "Chinesisch lernen / Kultur mögen",
+          "a": "Maria lernt Chinesisch,\nweil sie die chinesische Kultur mag.",
+          "note": null
+        },
+        {
+          "q": "用 da 造句，从句放句首：\n由于天气很好，我们去散步。",
+          "hint": "da / schön / spazieren gehen",
+          "a": "Da das Wetter schön ist,\ngehen wir spazieren.",
+          "note": "主句动词随之倒装"
+        },
+        {
+          "q": "用 deshalb 造句：\n她每天运动，所以她很健康。",
+          "hint": "Sport machen / gesund sein",
+          "a": "Sie macht jeden Tag Sport,\ndeshalb ist sie gesund.",
+          "note": null
+        }
+      ]
+    }
+  ]
+}

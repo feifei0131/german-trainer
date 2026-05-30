@@ -3,8 +3,12 @@
   "title": "mitnehmen",
   "subtitle": "带走 / 随身携带 / 顺带",
   "category": "verbs",
-  "level": ["A1"],
-  "tags": ["可分动词"],
+  "level": [
+    "A1"
+  ],
+  "tags": [
+    "可分动词"
+  ],
   "trainer": "verb-drill",
   "meta": {
     "totalSections": 6,
@@ -244,6 +248,15 @@
           "note": null
         }
       ]
+    }
+  ],
+  "endQuote": "Nimm nur das mit, was du wirklich brauchst — und die richtigen Menschen.",
+  "endQuoteCN": "只带上你真正需要的东西——还有对的人。",
+  "related": [
+    {
+      "id": "nehmen",
+      "label": "nehmen",
+      "note": "词根动词（不规则）"
     }
   ]
 }

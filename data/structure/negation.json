@@ -1,0 +1,242 @@
+{
+  "id": "negation",
+  "title": "否定句",
+  "subtitle": "nicht · kein/keine · 位置规则",
+  "category": "structure",
+  "level": ["A1", "A2"],
+  "tags": ["句子结构", "否定句"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 5,
+    "totalExercises": 30
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "kein/keine — 否定名词（无冠词/不定冠词）",
+      "grammar": "kein/keine 只用于名词，且名词前是：\n• 不定冠词（ein/eine）→ 换成 kein/keine\n• 无冠词（复数/不可数）→ 加 kein/keine\n\n  肯定：Ich habe ein Buch.\n  否定：Ich habe kein Buch.\n  肯定：Wir haben Kinder.\n  否定：Wir haben keine Kinder.\n\n格变化（与 ein 一致）：\n  主格：kein / kein / keine / keine\n  宾格：keinen / kein / keine / keine\n  与格：keinem / keinem / keiner / keinen\n\n⚠️ 有定冠词（der/die/das）的名词\n用 nicht，不用 kein！",
+      "exCN": "你有时间吗？——不，我没有时间。",
+      "exDE": "Hast du Zeit? – Nein, ich habe keine Zeit.",
+      "exercises": [
+        {
+          "q": "这不是一个苹果。",
+          "hint": "kein / keinen / keine？",
+          "a": "Das ist kein Apfel.",
+          "note": "Apfel 阳性，主格：kein"
+        },
+        {
+          "q": "我没有孩子。",
+          "hint": "Kinder 复数，无冠词",
+          "a": "Ich habe keine Kinder.",
+          "note": "复数用 keine"
+        },
+        {
+          "q": "这不是一个问题。",
+          "hint": "Problem 中性",
+          "a": "Das ist kein Problem.",
+          "note": "中性主格：kein"
+        },
+        {
+          "q": "你们有宠物吗？\n——不，我们没有宠物。（回答）",
+          "hint": "Haustiere 复数",
+          "a": "Nein, wir haben keine Haustiere.",
+          "note": null
+        },
+        {
+          "q": "我们没有做休息。",
+          "hint": "Pause machen / Perfekt",
+          "a": "Wir haben keine Pause gemacht.",
+          "note": "Pause 阴性，宾格：keine"
+        },
+        {
+          "q": "我没有儿子。",
+          "hint": "Sohn 阳性，宾格",
+          "a": "Ich habe keinen Sohn.",
+          "note": "阳性宾格：keinen"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "kein 还是 nicht？对比判断",
+      "grammar": "快速判断：\n\n否定名词（无冠词/不定冠词）\n  → kein/keine\n  Ich habe kein Auto.\n\n否定名词（有定冠词）\n  → nicht\n  Ich kaufe das Hemd nicht.\n\n否定动词/形容词/副词\n  → nicht\n  Ich komme heute nicht.\n\n否定专有名词/人名\n  → nicht\n  Das ist nicht Herr Rösler.\n\n否定「sein + 形容词」\n  → nicht\n  Leonie ist nicht krank.",
+      "exCN": "你喜欢洋葱吗？——不喜欢。",
+      "exDE": "Magst du Zwiebeln? – Nein, ich mag keine Zwiebeln.",
+      "exercises": [
+        {
+          "q": "Leonie 生病了吗？\n——不，没有生病。（回答）",
+          "hint": "sein + 形容词 → nicht",
+          "a": "Nein, Leonie ist nicht krank.",
+          "note": "形容词谓语用 nicht"
+        },
+        {
+          "q": "你周二有时间吗？\n——不，没有时间。（回答）",
+          "hint": "Zeit 无冠词 → kein",
+          "a": "Nein, ich habe keine Zeit.",
+          "note": "Zeit 阴性，无冠词：keine"
+        },
+        {
+          "q": "课程在八点半开始吗？\n——不，不在八点半。（回答）",
+          "hint": "否定时间状语 → nicht",
+          "a": "Nein, der Kurs beginnt nicht um halb neun.",
+          "note": "否定时间状语用 nicht"
+        },
+        {
+          "q": "你的工作压力大吗？\n——不，不大。（回答）",
+          "hint": "sein + 形容词 → nicht",
+          "a": "Nein, meine Arbeit ist nicht stressig.",
+          "note": null
+        },
+        {
+          "q": "你吃早饭了吗？\n——不，还没吃。",
+          "hint": "noch nicht / gefrühstückt",
+          "a": "Nein, ich habe noch nicht gefrühstückt.",
+          "note": "noch nicht = 还没有"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "nicht 在句末 — 否定整个句子",
+      "grammar": "否定整个句子动作时，\nnicht 放在句末：\n\n  Ich komme heute.\n  → Ich komme heute nicht.\n\n⚠️ 有可分前缀时，nicht 在前缀前：\n  Ich rufe dich an.\n  → Ich rufe dich nicht an.\n\n⚠️ 有情态动词时，nicht 在原形前：\n  Ich kann kommen.\n  → Ich kann nicht kommen.\n\n⚠️ Perfekt 中，nicht 在过去分词前：\n  Ich habe das gemacht.\n  → Ich habe das nicht gemacht.",
+      "exCN": "我今天不来。",
+      "exDE": "Ich komme heute nicht.",
+      "exercises": [
+        {
+          "q": "我不住在法兰克福。",
+          "hint": "wohnen in Frankfurt",
+          "a": "Ich wohne nicht in Frankfurt.",
+          "note": null
+        },
+        {
+          "q": "我不坐有轨电车。",
+          "hint": "mit der Straßenbahn fahren",
+          "a": "Ich fahre nicht mit der Straßenbahn.",
+          "note": null
+        },
+        {
+          "q": "我父亲不会做饭。",
+          "hint": "können / kochen",
+          "a": "Mein Vater kann nicht kochen.",
+          "note": "情态动词：nicht 在原形前"
+        },
+        {
+          "q": "我明天不必工作。",
+          "hint": "müssen / arbeiten",
+          "a": "Ich muss morgen nicht arbeiten.",
+          "note": null
+        },
+        {
+          "q": "我们没有准时出发。",
+          "hint": "pünktlich losfahren / Perfekt\n助动词：sein",
+          "a": "Wir sind nicht pünktlich losgefahren.",
+          "note": "losfahren 用 sein，nicht 在分词前"
+        },
+        {
+          "q": "Stefan 和 Igor 不一起来。",
+          "hint": "mitkommen，可分动词",
+          "a": "Stefan und Igor kommen nicht mit.",
+          "note": "可分动词：nicht 在前缀前"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "nicht 在成分前 — 部分否定",
+      "grammar": "否定句子中某个具体成分时，\nnicht 放在该成分正前方：\n\n否定形容词：\n  Ich bin nicht müde.\n否定地点状语：\n  Die Kinder spielen\n  nicht auf der Straße.\n否定有定冠词的名词（含对比）：\n  Ich kaufe nicht das Hemd,\n  sondern die Hose.\n\n⚠️ 位置决定否定的焦点：\n  Ich komme heute nicht.\n  → 否定「来」这个动作\n  Ich komme nicht heute.\n  → 否定「今天」（暗示改天来）",
+      "exCN": "这不是我父母的房子。",
+      "exDE": "Das ist nicht das Haus von meinen Eltern.",
+      "exercises": [
+        {
+          "q": "孩子们不在街上玩。",
+          "hint": "auf der Straße spielen",
+          "a": "Die Kinder spielen nicht auf der Straße.",
+          "note": "否定地点：nicht 在地点前"
+        },
+        {
+          "q": "这个包裹不是给我的。",
+          "hint": "für mich sein",
+          "a": "Dieses Päckchen ist nicht für mich.",
+          "note": null
+        },
+        {
+          "q": "那个男孩没有打碎窗户。",
+          "hint": "das Fenster kaputt machen\nPerfekt",
+          "a": "Der Junge hat das Fenster\nnicht kaputt gemacht.",
+          "note": null
+        },
+        {
+          "q": "我今天不在我父母那里。",
+          "hint": "bei meinen Eltern sein",
+          "a": "Ich bin heute nicht bei meinen Eltern.",
+          "note": null
+        },
+        {
+          "q": "房东没有给我打电话。",
+          "hint": "anrufen / Perfekt\nDer Vermieter",
+          "a": "Der Vermieter hat mich nicht angerufen.",
+          "note": "anrufen 可分：nicht 在分词前"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "综合练习 — nicht 还是 kein？",
+      "grammar": "综合判断口诀：\n\n名词 + 无冠词/不定冠词\n  → kein/keine\n\n其他一切\n  → nicht\n\n否定疑问句回答用 doch！\n（不是 ja）\n\n  Kommst du nicht?\n  – Doch, ich komme!\n\n  Hast du keine Zeit?\n  – Doch, ich habe Zeit!",
+      "exCN": "我没有忘记我的密码。",
+      "exDE": "Ich habe mein Passwort nicht vergessen.",
+      "exercises": [
+        {
+          "q": "秋日节不在市场广场举行。",
+          "hint": "stattfinden / auf dem Marktplatz\nPerfekt：hat stattgefunden",
+          "a": "Das Herbstfest findet nicht\nauf dem Marktplatz statt.",
+          "note": "否定地点状语用 nicht"
+        },
+        {
+          "q": "我不认识你的父母。",
+          "hint": "kennen",
+          "a": "Ich kenne deine Eltern nicht.",
+          "note": null
+        },
+        {
+          "q": "你和你的老板谈过了吗？\n——没有。（回答）",
+          "hint": "mit dem Chef sprechen / Perfekt",
+          "a": "Nein, ich habe nicht mit meinem\nChef gesprochen.",
+          "note": null
+        },
+        {
+          "q": "你相信这个吗？——不信。（回答）",
+          "hint": "glauben",
+          "a": "Nein, ich glaube das nicht.",
+          "note": null
+        },
+        {
+          "q": "Maria 不是很爱运动。",
+          "hint": "sportlich sein",
+          "a": "Maria ist nicht sehr sportlich.",
+          "note": "形容词用 nicht"
+        },
+        {
+          "q": "足球赛没有准时开始。",
+          "hint": "pünktlich anfangen / Perfekt",
+          "a": "Das Fußballspiel hat nicht\npünktlich angefangen.",
+          "note": null
+        },
+        {
+          "q": "我们不总是早起。",
+          "hint": "immer früh aufstehen",
+          "a": "Wir stehen nicht immer früh auf.",
+          "note": "nicht immer = 不总是"
+        },
+        {
+          "q": "你没有下载那个视频吗？\n——下载了！（用 doch 回答）",
+          "hint": "herunterladen / Perfekt",
+          "a": "Doch, ich habe das Video heruntergeladen.",
+          "note": "否定反问回答用 doch！"
+        }
+      ]
+    }
+  ],
+  "endQuote": "Nicht alles ist perfekt – aber Deutsch schon.",
+  "endQuoteCN": "不是所有事情都完美——但德语可以。"
+}

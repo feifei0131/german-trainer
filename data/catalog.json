@@ -15,8 +15,8 @@
             "A1"
           ],
           "tags": [
-            "完全不规则",
             "系动词",
+            "完全不规则",
             "Präteritum"
           ],
           "sections": 6,
@@ -30,9 +30,9 @@
             "A1"
           ],
           "tags": [
+            "不规则动词",
             "sein 完成时",
-            "wohin",
-            "比喻义"
+            "wohin"
           ],
           "sections": 5,
           "exercises": 39
@@ -61,8 +61,7 @@
           ],
           "tags": [
             "不规则动词",
-            "e→i 变音",
-            "gegessen"
+            "e→i 变音"
           ],
           "sections": 6,
           "exercises": 30
@@ -76,8 +75,7 @@
           ],
           "tags": [
             "不规则动词",
-            "第三格宾语",
-            "geholfen"
+            "第三格宾语"
           ],
           "sections": 6,
           "exercises": 32
@@ -105,8 +103,8 @@
             "A1"
           ],
           "tags": [
-            "强变化动词",
-            "sein完成时"
+            "不规则动词",
+            "sein 完成时"
           ],
           "sections": 7,
           "exercises": 34
@@ -119,8 +117,8 @@
             "A1"
           ],
           "tags": [
-            "强变化动词",
-            "元音变音"
+            "不规则动词",
+            "e→ie 变音"
           ],
           "sections": 6,
           "exercises": 32
@@ -133,7 +131,8 @@
             "A1"
           ],
           "tags": [
-            "不规则动词"
+            "不规则动词",
+            "e→i 变音"
           ],
           "sections": 6,
           "exercises": 30
@@ -150,6 +149,87 @@
           ],
           "sections": 6,
           "exercises": 30
+        },
+        {
+          "id": "kommen",
+          "title": "kommen",
+          "subtitle": "来 / 过来",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "不规则动词"
+          ],
+          "sections": 6,
+          "exercises": 32
+        },
+        {
+          "id": "mitkommen",
+          "title": "mitkommen",
+          "subtitle": "一起来 / 跟来",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词"
+          ],
+          "sections": 6,
+          "exercises": 32
+        },
+        {
+          "id": "ankommen",
+          "title": "ankommen",
+          "subtitle": "到达 / 抵达",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词"
+          ],
+          "sections": 6,
+          "exercises": 32
+        },
+        {
+          "id": "machen",
+          "title": "machen",
+          "subtitle": "做 / 制作 / 让……",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "规则动词",
+            "高频动词"
+          ],
+          "sections": 6,
+          "exercises": 27
+        },
+        {
+          "id": "anmachen-ausmachen",
+          "title": "anmachen & ausmachen",
+          "subtitle": "开 / 关（可分动词对比）",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词",
+            "对比训练"
+          ],
+          "sections": 6,
+          "exercises": 23
+        },
+        {
+          "id": "mitmachen",
+          "title": "mitmachen",
+          "subtitle": "参与 / 一起做 / 配合",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "可分动词",
+            "高频动词"
+          ],
+          "sections": 6,
+          "exercises": 24
         }
       ]
     },
@@ -162,12 +242,122 @@
       "units": []
     },
     {
-      "id": "structures",
+      "id": "structure",
       "name": "句子结构训练",
-      "description": "句子框架：主从句、动词第二位、可分动词等",
+      "description": "语序规则、动词位置、从句结构",
       "icon": "structure",
-      "trainer": "structure-drill",
-      "units": []
+      "trainer": "verb-drill",
+      "units": [
+        {
+          "id": "verb-position",
+          "title": "动词的位置",
+          "subtitle": "V2 规则 · 疑问句 · 祈使句",
+          "level": [
+            "A1",
+            "A2"
+          ],
+          "tags": [
+            "句子结构",
+            "语序"
+          ],
+          "sections": 8,
+          "exercises": 36
+        },
+        {
+          "id": "negation",
+          "title": "否定句",
+          "subtitle": "nicht · kein/keine · 位置规则",
+          "level": [
+            "A1",
+            "A2"
+          ],
+          "tags": [
+            "句子结构",
+            "否定句"
+          ],
+          "sections": 5,
+          "exercises": 30
+        },
+        {
+          "id": "satzverbindungen-1",
+          "title": "句子连接 Teil 1",
+          "subtitle": "und · oder · aber",
+          "level": [
+            "A1"
+          ],
+          "tags": [
+            "句子连接",
+            "并列连接词",
+            "转折"
+          ],
+          "sections": 4,
+          "exercises": 28
+        },
+        {
+          "id": "satzverbindungen-2",
+          "title": "句子连接 Teil 2",
+          "subtitle": "denn · weil · da · deshalb · daher",
+          "level": [
+            "A1",
+            "A2"
+          ],
+          "tags": [
+            "句子连接",
+            "原因从句",
+            "结果",
+            "动词末位"
+          ],
+          "sections": 5,
+          "exercises": 28
+        },
+        {
+          "id": "satzverbindungen-3",
+          "title": "句子连接 Teil 3",
+          "subtitle": "obwohl · trotzdem",
+          "level": [
+            "A2",
+            "B1"
+          ],
+          "tags": [
+            "句子连接",
+            "让步从句",
+            "转折副词"
+          ],
+          "sections": 4,
+          "exercises": 26
+        },
+        {
+          "id": "satzverbindungen-4",
+          "title": "句子连接 Teil 4",
+          "subtitle": "dass · damit",
+          "level": [
+            "A2"
+          ],
+          "tags": [
+            "句子连接",
+            "内容从句",
+            "目的从句",
+            "动词末位"
+          ],
+          "sections": 4,
+          "exercises": 28
+        },
+        {
+          "id": "relativsaetze",
+          "title": "关系从句",
+          "subtitle": "Relativsätze · 定语从句全类型通关",
+          "level": [
+            "B1"
+          ],
+          "tags": [
+            "关系从句",
+            "从句结构",
+            "格变化"
+          ],
+          "sections": 8,
+          "exercises": 32
+        }
+      ]
     }
   ]
 }

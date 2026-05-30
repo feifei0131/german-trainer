@@ -1,0 +1,237 @@
+{
+  "id": "machen",
+  "title": "machen",
+  "subtitle": "做 / 制作 / 让……",
+  "category": "verbs",
+  "level": ["A1"],
+  "tags": ["规则动词", "高频动词"],
+  "trainer": "verb-drill",
+  "endQuote": "Was man mit Liebe macht, das macht man gut.",
+  "endQuoteCN": "用心去做的事，才能做好。",
+  "meta": {
+    "totalSections": 6,
+    "totalExercises": 27
+  },
+  "sections": [
+    {
+      "num": 1,
+      "title": "现在时变位",
+      "grammar": "machen 是规则动词，无元音变音。\nych → mache\ndu → machst\ner/sie/es → macht\nwir → machen\nihr → macht\nsie/Sie → machen\n句型：主语 + macht + 宾语（Akkusativ）",
+      "exCN": "她做饭。/ 你做什么？",
+      "exDE": "Sie macht das Essen. / Was machst du?",
+      "exercises": [
+        {
+          "q": "我做作业。",
+          "hint": null,
+          "a": "Ich mache die Hausaufgaben.",
+          "note": null
+        },
+        {
+          "q": "他做饭。",
+          "hint": "das Essen",
+          "a": "Er macht das Essen.",
+          "note": null
+        },
+        {
+          "q": "我们一起做一个项目。",
+          "hint": "ein Projekt, zusammen",
+          "a": "Wir machen zusammen ein Projekt.",
+          "note": null
+        },
+        {
+          "q": "你们今天做什么？",
+          "hint": null,
+          "a": "Was macht ihr heute?",
+          "note": null
+        },
+        {
+          "q": "这让我很开心。",
+          "hint": "mich + glücklich",
+          "a": "Das macht mich glücklich.",
+          "note": "machen + Akk + Adj：让某人……"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "固定短语搭配",
+      "grammar": "machen 与名词搭配构成固定短语：\nUrlaub machen（度假）\nSport machen（运动）\nFotos machen（拍照）\neinen Fehler machen（犯错）\neinen Spaziergang machen（散步）\n⚠️ 名词用 Akkusativ，注意冠词变化！",
+      "exCN": "我喜欢运动。/ 我们去度假。",
+      "exDE": "Ich mache gern Sport. / Wir machen Urlaub.",
+      "exercises": [
+        {
+          "q": "我喜欢运动。",
+          "hint": "gern + Sport machen",
+          "a": "Ich mache gern Sport.",
+          "note": null
+        },
+        {
+          "q": "我们去散步吧。",
+          "hint": "Lasst uns...",
+          "a": "Lasst uns einen Spaziergang machen!",
+          "note": "Lasst uns + 动词原形：建议句"
+        },
+        {
+          "q": "她在公园拍了很多照片。",
+          "hint": "im Park, viele Fotos",
+          "a": "Sie hat im Park viele Fotos gemacht.",
+          "note": "Perfekt：hat ... gemacht"
+        },
+        {
+          "q": "对不起，我犯了一个错误。",
+          "hint": "Entschuldigung, einen Fehler",
+          "a": "Entschuldigung, ich habe einen Fehler gemacht.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "加时间状语",
+      "grammar": "时间状语放动词后，或置于句首。\n句首时动词紧跟（第二位）：\n  Heute macht er Sport.\nheute / morgen / gestern\njeden Tag / am Wochenende\njetzt / später / gleich",
+      "exCN": "我今天做作业。/ 今天他运动。",
+      "exDE": "Ich mache heute die Hausaufgaben.\nHeute macht er Sport.",
+      "exercises": [
+        {
+          "q": "她每天做运动。",
+          "hint": null,
+          "a": "Sie macht jeden Tag Sport.",
+          "note": null
+        },
+        {
+          "q": "我们周末去度假。",
+          "hint": null,
+          "a": "Wir machen am Wochenende Urlaub.",
+          "note": "am Wochenende = 在周末"
+        },
+        {
+          "q": "明天他们拍照。",
+          "hint": "Fotos machen",
+          "a": "Morgen machen sie Fotos.",
+          "note": "时间词置首，动词第二位"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Perfekt 过去时",
+      "grammar": "machen 规则动词：haben + gemacht\n主语 + haben（变位）+…+ gemacht\ních habe gemacht\ndu hast gemacht\ner/sie hat gemacht\nwir haben gemacht\n⚠️ 过去分词永远在句子最末位！",
+      "exCN": "我昨天做了作业。",
+      "exDE": "Ich habe gestern die Hausaufgaben gemacht.",
+      "exercises": [
+        {
+          "q": "你昨天做了什么？",
+          "hint": null,
+          "a": "Was hast du gestern gemacht?",
+          "note": null
+        },
+        {
+          "q": "我们上周拍了很多照片。",
+          "hint": "letzte Woche, viele Fotos",
+          "a": "Wir haben letzte Woche viele Fotos gemacht.",
+          "note": null
+        },
+        {
+          "q": "他今天早上运动了。",
+          "hint": "heute Morgen",
+          "a": "Er hat heute Morgen Sport gemacht.",
+          "note": null
+        },
+        {
+          "q": "她犯了一个错误。",
+          "hint": "einen Fehler",
+          "a": "Sie hat einen Fehler gemacht.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "祈使句",
+      "grammar": "machen 规则动词，无元音变音：\ndu  → Mach!（去掉 -st）\nihr → Macht!\nSie → Machen Sie!\n常用副词：schnell / sofort / bitte\n⚠️ du 形式：Mach（不是 Mache！）",
+      "exCN": "快去做作业！/ 请您现在就做！",
+      "exDE": "Mach die Hausaufgaben schnell!\nMachen Sie das jetzt, bitte!",
+      "exercises": [
+        {
+          "q": "快去做作业！（对朋友）",
+          "hint": null,
+          "a": "Mach die Hausaufgaben schnell!",
+          "note": null
+        },
+        {
+          "q": "请你们一起做这个项目！",
+          "hint": null,
+          "a": "Macht das Projekt zusammen!",
+          "note": null
+        },
+        {
+          "q": "请您现在就做！（对长辈）",
+          "hint": null,
+          "a": "Machen Sie das jetzt, bitte!",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "疑问句",
+      "grammar": "Was（做什么）\nWarum（为什么做）\nWann / Wie lange（什么时候/多久）\nWie oft（多久一次）\nWie（怎么做）",
+      "exCN": "你多久运动一次？/ 你怎么做到的？",
+      "exDE": "Wie oft machst du Sport?\nWie hast du das gemacht?",
+      "exercises": [
+        {
+          "q": "你明天做什么？",
+          "hint": null,
+          "a": "Was machst du morgen?",
+          "note": null
+        },
+        {
+          "q": "你为什么不喜欢运动？",
+          "hint": "gern + Sport machen",
+          "a": "Warum machst du nicht gern Sport?",
+          "note": null
+        },
+        {
+          "q": "你上周做了什么？",
+          "hint": "Perfekt",
+          "a": "Was hast du letzte Woche gemacht?",
+          "note": null
+        },
+        {
+          "q": "你多久运动一次？",
+          "hint": null,
+          "a": "Wie oft machst du Sport?",
+          "note": null
+        },
+        {
+          "q": "你怎么做到的？",
+          "hint": "das，过去时",
+          "a": "Wie hast du das gemacht?",
+          "note": null
+        },
+        {
+          "q": "你们什么时候去度假？",
+          "hint": null,
+          "a": "Wann macht ihr Urlaub?",
+          "note": null
+        },
+        {
+          "q": "你散步散了多久？",
+          "hint": "Perfekt + Wie lange",
+          "a": "Wie lange hast du einen Spaziergang gemacht?",
+          "note": null
+        },
+        {
+          "q": "为什么他犯了这个错误？",
+          "hint": "diesen Fehler",
+          "a": "Warum hat er diesen Fehler gemacht?",
+          "note": null
+        }
+      ]
+    }
+  ],
+  "related": [
+    { "id": "anmachen-ausmachen", "label": "anmachen & ausmachen", "note": "可分动词（开/关）" },
+    { "id": "mitmachen", "label": "mitmachen", "note": "可分动词（参与）" }
+  ]
+}

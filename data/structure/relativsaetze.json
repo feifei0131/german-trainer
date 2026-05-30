@@ -1,0 +1,293 @@
+{
+  "id": "relativsaetze",
+  "title": "关系从句",
+  "subtitle": "Relativsätze · 定语从句全类型通关",
+  "category": "structure",
+  "level": ["B1"],
+  "tags": ["关系从句", "从句结构", "格变化"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 8,
+    "totalExercises": 32
+  },
+  "endQuote": "Deutsch ist eine Sprache, die denjenigen, der sie wirklich verstehen will, niemals langweilt.",
+  "endQuoteCN": "德语是一门永远不会让真正想理解它的人感到无聊的语言。",
+  "sections": [
+    {
+      "num": 1,
+      "title": "第一格关系代词（Nominativ）",
+      "grammar": "关系代词充当从句主语时用第一格：\n阳性 → der\n阴性 → die\n中性 → das\n复数 → die\n⚠️ 关系代词前必须加逗号！\n⚠️ 动词永远放句末！",
+      "exCN": "三天没洗澡的托马斯身上有汗味。",
+      "exDE": "Thomas, der seit drei Tagen nicht geduscht hat, riecht nach Schweiß.",
+      "exercises": [
+        {
+          "q": "你认识住在那里的那个男人吗？",
+          "hint": "阳性 → der",
+          "a": "Kennst du den Mann, der da wohnt?",
+          "note": null
+        },
+        {
+          "q": "我认识一个每年冬天\n都会得流感的网红。",
+          "hint": "阳性，Influencer",
+          "a": "Ich kenne einen Influencer, der jeden Winter Influenza hat.",
+          "note": null
+        },
+        {
+          "q": "那只我昨天从树上救下来的猫，\n其实是个仙女。",
+          "hint": "阴性，Katze → die",
+          "a": "Die Katze, die ich gestern vom Baum gerettet habe,\nist in Wirklichkeit eine Fee.",
+          "note": null
+        },
+        {
+          "q": "德语是一门能让\n试图学习它的人头痛的语言。",
+          "hint": "阴性，Sprache；嵌套从句",
+          "a": "Deutsch ist eine Sprache, die jemandem,\nder versucht, sie zu lernen, Kopfschmerzen machen kann.",
+          "note": "嵌套：外层 die（阴性主语），\n内层 der（阳性主语）"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "第四格关系代词（Akkusativ）",
+      "grammar": "关系代词充当从句直接宾语时用第四格：\n阳性 → den\n阴性 → die\n中性 → das\n复数 → die\n⚠️ 关键：看代词在「从句内」\n充当什么成分，与主句的格无关！",
+      "exCN": "玛丽亚今天戴的围巾是羊毛的。",
+      "exDE": "Der Schal, den Maria heute trägt, ist aus Wolle.",
+      "exercises": [
+        {
+          "q": "玛丽亚推荐的那部电影太棒了。",
+          "hint": "阳性，Film → den",
+          "a": "Der Film, den Maria empfohlen hat, war großartig.",
+          "note": null
+        },
+        {
+          "q": "那是我喝过最好的浓缩咖啡。",
+          "hint": "阳性，Espresso → den",
+          "a": "Das war der beste Espresso, den ich jemals hatte.",
+          "note": null
+        },
+        {
+          "q": "托马斯经常回答没人问的问题。",
+          "hint": "复数，Fragen → die",
+          "a": "Thomas beantwortet oft Fragen, die niemand gestellt hat.",
+          "note": null
+        },
+        {
+          "q": "我今天弄丢了才买了一周的新手机。\n（关系从句放句末）",
+          "hint": "中性，Handy → das；拆分结构",
+          "a": "Ich habe heute das Handy verloren,\ndas ich mir erst vor einer Woche gekauft hatte.",
+          "note": "动词后只剩短尾 → 关系从句\n移至句末，句子更平衡"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "第三格关系代词（Dativ）",
+      "grammar": "关系代词充当从句间接宾语时用第三格：\n阳性 → dem\n阴性 → der\n中性 → dem\n复数 → denen\n⚠️ 陷阱：主句中是第三格的名词，\n若在从句里充当主语，仍用第一格！",
+      "exCN": "玛丽亚看到了我给它粘上翅膀的猫。",
+      "exDE": "Maria sieht die Katze, der ich Flügel angeklebt habe.",
+      "exercises": [
+        {
+          "q": "那位我给她解释了路的女士\n其实是个侦探。",
+          "hint": "阴性，Frau；间接宾语 → der",
+          "a": "Die Frau, der ich den Weg erklärt habe,\nist eigentlich eine Detektivin.",
+          "note": null
+        },
+        {
+          "q": "我认识一个孩子，\n我每次都给他买冰淇淋。",
+          "hint": "中性，Kind → dem",
+          "a": "Ich kenne ein Kind, dem ich jedes Mal ein Eis kaufe.",
+          "note": null
+        },
+        {
+          "q": "那些我给他们发邮件的同事\n都没回复。",
+          "hint": "复数，Kollegen → denen",
+          "a": "Die Kollegen, denen ich eine E-Mail geschickt habe,\nhaben nicht geantwortet.",
+          "note": null
+        },
+        {
+          "q": "玛丽亚说他发臭，\n于是托马斯买了除臭剂。",
+          "hint": "阳性，Thomas → dem（间接宾语）",
+          "a": "Thomas, dem Maria gesagt hat, dass er stinkt,\nkauft ein Deo.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "介词 + 关系代词",
+      "grammar": "从句动词有介词搭配时，介词必须\n直接放在关系代词前方，整体引导：\nvon + dem → von dem\nmit + der → mit der\nnach + dem → nach dem\n❌ 不可像英语把介词扔到句末！",
+      "exCN": "你总是跟我提起的那家酒吧关门了。",
+      "exDE": "Die Bar, von der du mir erzählt hast, ist zu.",
+      "exercises": [
+        {
+          "q": "这就是我一直梦想的公寓。",
+          "hint": "träumen von → von + der（阴性）",
+          "a": "Das ist die Wohnung, von der ich immer geträumt habe.",
+          "note": null
+        },
+        {
+          "q": "你向我问起的那本书很好。",
+          "hint": "nach etw. fragen → nach + dem（中性）",
+          "a": "Das Buch, nach dem du mich gefragt hast, war gut.",
+          "note": null
+        },
+        {
+          "q": "我对那家所有人都说很棒\n的餐厅感到失望。",
+          "hint": "enttäuscht von → von + dem（中性）",
+          "a": "Ich bin von dem Restaurant enttäuscht,\nvon dem alle sagen, dass es super ist.",
+          "note": null
+        },
+        {
+          "q": "玛丽亚是一个你可以\n和她一起吃披萨的女人。",
+          "hint": "mit + der（阴性，第三格）",
+          "a": "Maria ist eine Frau, mit der man Pizza essen kann.",
+          "note": null
+        },
+        {
+          "q": "这就是你总是跟我提起的\n那家酒吧吗？",
+          "hint": "erzählen von → von + der",
+          "a": "Ist das die Bar, von der du mir immer erzählst?",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "属格关系代词（dessen / deren）",
+      "grammar": "表示所属关系（…的）时：\n阳性 / 中性 → dessen\n阴性 / 复数 → deren\n⚠️ dessen/deren 后面的名词\n不加冠词！\n✅ Maria, deren Eltern kommen\n❌ Maria, deren die Eltern kommen",
+      "exCN": "玛丽亚的父母周末要来，她正在打扫公寓。",
+      "exDE": "Maria, deren Eltern am Wochenende zu Besuch kommen, räumt die Wohnung auf.",
+      "exercises": [
+        {
+          "q": "我昨天会见了那位\n我捡到她手机的女士。",
+          "hint": "阴性所属 → deren",
+          "a": "Gestern habe ich mich mit der Frau getroffen,\nderen Telefon ich gefunden hatte.",
+          "note": null
+        },
+        {
+          "q": "那位妻子是医生的男人\n看起来很担心。",
+          "hint": "阳性所属 → dessen",
+          "a": "Der Mann, dessen Frau Ärztin ist, sieht sehr besorgt aus.",
+          "note": "dessen 后直接加名词，无冠词！"
+        },
+        {
+          "q": "我有一个邻居，\n他的狗每天晚上都叫。",
+          "hint": "阳性所属 → dessen",
+          "a": "Ich habe einen Nachbarn,\ndessen Hund jeden Abend bellt.",
+          "note": null
+        },
+        {
+          "q": "我不喜欢莫扎特的新歌，\n虽然我通常很喜欢他的音乐。",
+          "hint": "阳性所属 → dessen",
+          "a": "Der neue Song von Mozart,\ndessen Musik ich normalerweise mag, gefällt mir nicht.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "关系从句位置：正常 vs. 拆分",
+      "grammar": "通常关系从句紧跟被修饰名词。\n但若主句动词后只剩「短尾」\n（过去分词 / 可分前缀），\n建议拆分到句末保持平衡：\n✅ Ich habe das Buch gelesen,\n   das du mir empfohlen hast.\n❌ Ich habe das Buch, das du mir\n   empfohlen hast, gelesen.",
+      "exCN": "我打开了我哥哥送给我的那瓶酒。",
+      "exDE": "Ich mache den Wein auf, den mir mein Bruder geschenkt hat.",
+      "exercises": [
+        {
+          "q": "我读了你推荐给我的那本书。\n（用拆分结构）",
+          "hint": "lesen + das Buch → 拆分到句末",
+          "a": "Ich habe das Buch gelesen,\ndas du mir empfohlen hast.",
+          "note": "动词后只剩短尾 gelesen\n→ 拆分更平衡"
+        },
+        {
+          "q": "我跟那个也教过莫扎特的\n男人学了弹钢琴。（强调拆分）",
+          "hint": "强调拆分：突出「就是这个」男人",
+          "a": "Ich habe von dem Mann Klavier spielen gelernt,\nder auch Mozart unterrichtet hat.",
+          "note": "拆分到句末可起强调作用"
+        },
+        {
+          "q": "伊曼纽尔对他刚才\n玩的双关语非常自豪。",
+          "hint": "stolz auf + Akk；中性，Wortspiel",
+          "a": "Emanuel ist auf das Wortspiel,\ndas er gerade gemacht hat, sehr stolz.",
+          "note": null
+        },
+        {
+          "q": "多亏了她，我现在有了\n我一直想要的嬉皮士胡子。",
+          "hint": "阳性，Hipsterbart → den",
+          "a": "Dank ihr habe ich jetzt den Hipsterbart,\nden ich mir immer wollte.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "title": "B1 挑战：嵌套关系从句",
+      "grammar": "同一句中出现两个以上关系从句时，\n每个代词只负责「最近的那个名词」。\n分析步骤：\n① 找出所有被修饰名词\n② 各自向左看词性，向右看格\n③ 各自把动词踢到从句末",
+      "exCN": "我在火车上遇到的玛丽亚告诉我，她约会的男人送了她一件合身的裙子。",
+      "exDE": "Maria, die ich getroffen habe, hat mir erzählt, dass der Typ, mit dem sie ein Date hatte, ihr ein Kleid geschenkt hat, das perfekt passt.",
+      "exercises": [
+        {
+          "q": "那是你在 Tinder 上认识的家伙吗？\n就是那个长得像英国首相的人？",
+          "hint": "两个从句：den（第四格）+ der（主语）",
+          "a": "Ist das der Typ, den du auf Tinder kennengelernt hast?\nDer, der der britischen Premierministerin ähnlich sieht?",
+          "note": null
+        },
+        {
+          "q": "我跟你说过的那个\n我在印度遇到的家伙要来拜访了。",
+          "hint": "von dem（介词）+ den（第四格）",
+          "a": "Der Typ, von dem ich dir erzählt habe,\nden ich in Indien getroffen habe, kommt zu Besuch.",
+          "note": "两个关系从句修饰同一个名词\n→ 各自独立，依次排列"
+        },
+        {
+          "q": "这杯我喝过最好的浓缩咖啡，\n现在成了许多练习句的一部分。",
+          "hint": "嵌套：der…war + den…hatte",
+          "a": "Dieser Espresso, der der beste Espresso war,\nden ich jemals hatte, ist jetzt Teil vieler Übungssätze.",
+          "note": null
+        },
+        {
+          "q": "我昨天在火车上遇到的玛丽亚\n告诉我，她最近约会的那个家伙\n送了她一件合身的裙子。",
+          "hint": "三个关系从句：die / mit dem / das",
+          "a": "Maria, die ich gestern in der Bahn getroffen habe,\nhat mir erzählt, dass der Typ, mit dem sie ein Date hatte,\nihr ein Kleid geschenkt hat, das perfekt passt.",
+          "note": "die（阴性主语）/ mit dem（介词+阳性）\n/ das（中性主语）"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "title": "综合复习 —— 混合练习",
+      "grammar": "快速判断口诀：\n① 向左看词性 → 定代词基础形\n② 向右看格 → 调整格变化\n③ 有介词？→ 介词直接贴在前\n记住：\n动词永远在最后！\n关系代词绝对不能省略！",
+      "exCN": "我老板送给我的巧克力过期了。",
+      "exDE": "Die Schokolade, die mir mein Chef geschenkt hat, ist abgelaufen.",
+      "exercises": [
+        {
+          "q": "我老板送给我的巧克力过期了。",
+          "hint": "阴性，Schokolade；第四格 → die",
+          "a": "Die Schokolade, die mir mein Chef geschenkt hat,\nist abgelaufen.",
+          "note": null
+        },
+        {
+          "q": "这杯浓缩咖啡，\n我会把它讲给我的孙子们听。",
+          "hint": "阳性；erzählen von → von dem",
+          "a": "Das ist ein Espresso,\nvon dem ich meinen Enkeln erzählen werde.",
+          "note": null
+        },
+        {
+          "q": "那位我捡到她手机的女士\n住在隔壁。（属格挑战）",
+          "hint": "阴性所属 → deren",
+          "a": "Die Frau, deren Telefon ich gefunden hatte, wohnt nebenan.",
+          "note": "Genitiv：deren + 名词（无冠词）"
+        },
+        {
+          "q": "我对那家所有人都推荐的\n咖啡馆感到失望。",
+          "hint": "中性，Café；enttäuscht von → von dem",
+          "a": "Ich bin von dem Café enttäuscht,\nvon dem alle sagen, dass es super ist.",
+          "note": null
+        },
+        {
+          "q": "宇宙的命运取决于蚁人，\n他正在为决战做准备。",
+          "hint": "阳性；abhängen von → von dem",
+          "a": "Ant Man, von dem das Schicksal des Universums abhängt,\nbereitet sich auf den Showdown vor.",
+          "note": null
+        }
+      ]
+    }
+  ]
+}

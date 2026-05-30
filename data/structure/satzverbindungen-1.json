@@ -1,0 +1,221 @@
+{
+  "id": "satzverbindungen-1",
+  "title": "句子连接 Teil 1",
+  "subtitle": "und · oder · aber",
+  "category": "structure",
+  "level": ["A1"],
+  "tags": ["句子连接", "并列连接词", "转折"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 4,
+    "totalExercises": 28
+  },
+  "endQuote": "Das Leben ist kurz, aber es ist schön.",
+  "endQuoteCN": "生命短暂，但它美好。",
+  "sections": [
+    {
+      "num": 1,
+      "title": "und — 并列两件事",
+      "grammar": "und 连接两个主句，表示两件事同时成立。\n结构：主句 1 + und + 主句 2\n⚠️ und 后语序不变（主语+动词）\nund 前不需要逗号",
+      "exCN": "我喝咖啡，他喝茶。",
+      "exDE": "Ich trinke Kaffee und er trinkt Tee.",
+      "exercises": [
+        {
+          "q": "我住在柏林，\n我的朋友住在汉堡。",
+          "hint": "wohnen",
+          "a": "Ich wohne in Berlin\nund mein Freund wohnt in Hamburg.",
+          "note": null
+        },
+        {
+          "q": "妈妈做饭，爸爸洗碗。",
+          "hint": "kochen / spülen",
+          "a": "Die Mutter kocht und der Vater spült.",
+          "note": null
+        },
+        {
+          "q": "我很累，我去睡觉。",
+          "hint": "müde / schlafen gehen",
+          "a": "Ich bin müde und ich gehe schlafen.",
+          "note": null
+        },
+        {
+          "q": "汤姆买面包，玛丽买牛奶。",
+          "hint": "kaufen",
+          "a": "Tom kauft Brot und Maria kauft Milch.",
+          "note": null
+        },
+        {
+          "q": "天气很好，\n孩子们在外面玩。",
+          "hint": "Das Wetter / draußen spielen",
+          "a": "Das Wetter ist schön\nund die Kinder spielen draußen.",
+          "note": null
+        },
+        {
+          "q": "我学德语，\n我的朋友学英语。",
+          "hint": "lernen",
+          "a": "Ich lerne Deutsch\nund mein Freund lernt Englisch.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "oder — 二选一",
+      "grammar": "oder 连接两个主句，表示二选一。\n结构：主句 1 + oder + 主句 2\n⚠️ oder 后语序不变\noder 前不需要逗号",
+      "exCN": "我们坐公交车，或者我们走路。",
+      "exDE": "Wir fahren Bus oder wir gehen zu Fuß.",
+      "exercises": [
+        {
+          "q": "你今天工作，还是你休息？",
+          "hint": "arbeiten / frei haben",
+          "a": "Arbeitest du heute oder hast du frei?",
+          "note": null
+        },
+        {
+          "q": "我们去电影院，\n或者我们待在家里。",
+          "hint": "ins Kino gehen / zu Hause bleiben",
+          "a": "Wir gehen ins Kino\noder wir bleiben zu Hause.",
+          "note": null
+        },
+        {
+          "q": "你喝咖啡，还是你喝水？",
+          "hint": "trinken",
+          "a": "Trinkst du Kaffee oder trinkst du Wasser?",
+          "note": null
+        },
+        {
+          "q": "玛丽坐火车去，\n还是她开车去？",
+          "hint": "mit dem Zug / mit dem Auto fahren",
+          "a": "Maria fährt mit dem Zug\noder sie fährt mit dem Auto.",
+          "note": null
+        },
+        {
+          "q": "孩子们踢足球，\n或者他们玩电脑游戏？",
+          "hint": "Fußball spielen / Computerspiele spielen",
+          "a": "Spielen die Kinder Fußball\noder spielen sie Computerspiele?",
+          "note": null
+        },
+        {
+          "q": "我今天做饭，\n或者我们去餐厅？",
+          "hint": "kochen / ins Restaurant gehen",
+          "a": "Ich koche heute\noder wir gehen ins Restaurant.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "aber — 转折",
+      "grammar": "aber 连接两个主句，表示转折或对比。\n结构：主句 1 , aber + 主句 2\n⚠️ aber 前必须加逗号！\n⚠️ aber 后语序不变（主语+动词）",
+      "exCN": "我很累，但我还在学习。",
+      "exDE": "Ich bin müde, aber ich lerne.",
+      "exercises": [
+        {
+          "q": "我喜欢咖啡，\n但我不喝咖啡。",
+          "hint": "mögen / keinen Kaffee trinken",
+          "a": "Ich mag Kaffee,\naber ich trinke keinen Kaffee.",
+          "note": "⚠️ aber 前必须加逗号！"
+        },
+        {
+          "q": "天气很好，\n但我必须工作。",
+          "hint": "Das Wetter / arbeiten müssen",
+          "a": "Das Wetter ist schön,\naber ich muss arbeiten.",
+          "note": "⚠️ aber 前必须加逗号！"
+        },
+        {
+          "q": "汤姆很累，但他不睡觉。",
+          "hint": "müde / schlafen / nicht",
+          "a": "Tom ist müde, aber er schläft nicht.",
+          "note": null
+        },
+        {
+          "q": "这件毛衣很漂亮，但它很贵。",
+          "hint": "Der Pullover / schön / teuer",
+          "a": "Der Pullover ist schön,\naber er ist teuer.",
+          "note": null
+        },
+        {
+          "q": "我有时间，但我不想去。",
+          "hint": "Zeit haben / möchten / nicht",
+          "a": "Ich habe Zeit,\naber ich möchte nicht gehen.",
+          "note": null
+        },
+        {
+          "q": "玛丽说德语，\n但她的德语不好。",
+          "hint": "Deutsch sprechen / nicht gut",
+          "a": "Maria spricht Deutsch,\naber ihr Deutsch ist nicht gut.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "综合练习 — und / oder / aber",
+      "grammar": "判断用哪个连接词：\nund → 两件事都成立，不加逗号\noder → 二选一，不加逗号\naber → 转折对比，⚠️ 前面必须加逗号！",
+      "exCN": "我喜欢咖啡，但我喝茶。",
+      "exDE": "Ich mag Kaffee, aber ich trinke Tee.",
+      "exercises": [
+        {
+          "q": "我有一只猫，\n我也有一只狗。",
+          "hint": "und",
+          "a": "Ich habe eine Katze\nund ich habe auch einen Hund.",
+          "note": null
+        },
+        {
+          "q": "你学德语，还是你学法语？",
+          "hint": "oder",
+          "a": "Lernst du Deutsch\noder lernst du Französisch?",
+          "note": null
+        },
+        {
+          "q": "汉娜想去游泳，\n但今天下雨。",
+          "hint": "aber / schwimmen gehen / regnen",
+          "a": "Hanna möchte schwimmen gehen,\naber es regnet heute.",
+          "note": "⚠️ aber 前必须加逗号！"
+        },
+        {
+          "q": "爸爸读报纸，妈妈看电视。",
+          "hint": "und / Zeitung lesen / fernsehen",
+          "a": "Der Vater liest Zeitung\nund die Mutter sieht fern.",
+          "note": null
+        },
+        {
+          "q": "我们坐公交去，\n还是我们骑自行车去？",
+          "hint": "oder / mit dem Bus / mit dem Fahrrad",
+          "a": "Fahren wir mit dem Bus\noder fahren wir mit dem Fahrrad?",
+          "note": null
+        },
+        {
+          "q": "这家餐厅不贵，\n但食物不好吃。",
+          "hint": "aber / teuer / das Essen / lecker",
+          "a": "Das Restaurant ist nicht teuer,\naber das Essen ist nicht lecker.",
+          "note": null
+        },
+        {
+          "q": "托马斯每天锻炼，\n他也吃得很健康。",
+          "hint": "und / Sport machen / gesund essen",
+          "a": "Thomas macht jeden Tag Sport\nund er isst auch gesund.",
+          "note": null
+        },
+        {
+          "q": "你待在家里，\n还是你去看朋友？",
+          "hint": "oder / zu Hause bleiben / Freunde besuchen",
+          "a": "Bleibst du zu Hause\noder besuchst du Freunde?",
+          "note": null
+        },
+        {
+          "q": "这本书很有趣，但它很长。",
+          "hint": "aber / interessant / lang",
+          "a": "Das Buch ist interessant,\naber es ist sehr lang.",
+          "note": null
+        },
+        {
+          "q": "我去超市，我也去药店。",
+          "hint": "und / Supermarkt / Apotheke",
+          "a": "Ich gehe in den Supermarkt\nund ich gehe auch in die Apotheke.",
+          "note": null
+        }
+      ]
+    }
+  ]
+}

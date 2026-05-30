@@ -1,0 +1,233 @@
+{
+  "id": "satzverbindungen-4",
+  "title": "句子连接 Teil 4",
+  "subtitle": "dass · damit",
+  "category": "structure",
+  "level": ["A2"],
+  "tags": ["句子连接", "内容从句", "目的从句", "动词末位"],
+  "trainer": "verb-drill",
+  "meta": {
+    "totalSections": 4,
+    "totalExercises": 28
+  },
+  "endQuote": "Ich lerne Deutsch,\ndamit ich mit Menschen aus aller Welt sprechen kann.",
+  "endQuoteCN": "我学德语，为了能和世界各地的人交流。",
+  "sections": [
+    {
+      "num": 1,
+      "title": "dass — 内容从句",
+      "grammar": "dass 引导内容从句，说明某人\n说的/想的/感受的内容。\n结构：主句 , dass + 主语 + … + 动词\n⚠️ dass 前必须加逗号\n⚠️ dass 从句动词永远在最后！\n常见主句：\nEs ist wichtig / schade / unfair, dass…\nIch glaube / denke / bin sicher, dass…\nIch habe gehört / gelesen, dass…\nEr sagt / meint, dass…",
+      "exCN": "很可惜，你不能来。",
+      "exDE": "Es ist schade,\ndass du nicht kommen kannst.",
+      "exercises": [
+        {
+          "q": "我认为，这个练习很有用。",
+          "hint": "Ich denke / nützlich",
+          "a": "Ich denke, dass diese Übung nützlich ist.",
+          "note": "⚠️ dass 从句动词在句末"
+        },
+        {
+          "q": "很可惜，他们不能来参加派对。",
+          "hint": "Es ist schade / zur Party kommen können",
+          "a": "Es ist schade,\ndass sie nicht zur Party kommen können.",
+          "note": null
+        },
+        {
+          "q": "我很高兴，\n你现在感觉好多了。",
+          "hint": "Ich bin froh / sich besser fühlen",
+          "a": "Ich bin froh,\ndass du dich jetzt besser fühlst.",
+          "note": null
+        },
+        {
+          "q": "你有没有听说，\n玛丽找到新工作了？",
+          "hint": "Hast du gehört / eine neue Stelle finden",
+          "a": "Hast du gehört,\ndass Maria eine neue Stelle gefunden hat?",
+          "note": null
+        },
+        {
+          "q": "我觉得很不公平，\n他挣的钱这么少。",
+          "hint": "Es ist unfair / so wenig verdienen",
+          "a": "Ich finde es unfair,\ndass er so wenig verdient.",
+          "note": null
+        },
+        {
+          "q": "我确信，她会通过考试的。",
+          "hint": "Ich bin sicher / Prüfung bestehen",
+          "a": "Ich bin sicher,\ndass sie die Prüfung besteht.",
+          "note": null
+        },
+        {
+          "q": "老师说，\n明天我们有听写练习。",
+          "hint": "Der Lehrer sagt / ein Diktat haben",
+          "a": "Der Lehrer sagt,\ndass wir morgen ein Diktat haben.",
+          "note": null
+        },
+        {
+          "q": "我在网上看到，\n还有很多培训名额。",
+          "hint": "Ich habe gelesen / noch viele Plätze frei",
+          "a": "Ich habe im Internet gelesen,\ndass noch viele Ausbildungsplätze frei sind.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "damit — 目的从句",
+      "grammar": "damit 引导目的从句，说明做某事的目的。\n结构：主句 , damit + 主语 + … + 动词\n⚠️ damit 前必须加逗号\n⚠️ damit 从句动词永远在最后！\n⚠️ damit 从句主语通常与主句不同\n主语相同时用 um…zu，不用 damit",
+      "exCN": "奶奶晚上喝热牛奶，\n这样她能睡得好。",
+      "exDE": "Oma trinkt abends heiße Milch,\ndamit sie gut schlafen kann.",
+      "exercises": [
+        {
+          "q": "我催促一下，\n这样你能早点准备好。",
+          "hint": "mich beeilen / früher fertig sein",
+          "a": "Ich beeile mich,\ndamit du früher fertig bist.",
+          "note": "⚠️ damit 从句主语不同"
+        },
+        {
+          "q": "戴上手套，\n这样你的手能保暖。",
+          "hint": "Handschuhe anziehen / Hände warm bleiben",
+          "a": "Zieh Handschuhe an,\ndamit deine Hände warm bleiben.",
+          "note": null
+        },
+        {
+          "q": "我帮你，\n这样你能早点完成。",
+          "hint": "helfen / früher fertig werden",
+          "a": "Ich helfe dir,\ndamit du früher fertig wirst.",
+          "note": null
+        },
+        {
+          "q": "我们需要更多信息，\n这样我们能更好地计划。",
+          "hint": "Informationen / besser planen können",
+          "a": "Wir brauchen mehr Informationen,\ndamit wir besser planen können.",
+          "note": null
+        },
+        {
+          "q": "我们必须挣钱，\n这样我们能付房租。",
+          "hint": "Geld verdienen / Miete bezahlen können",
+          "a": "Wir müssen Geld verdienen,\ndamit wir die Miete bezahlen können.",
+          "note": null
+        },
+        {
+          "q": "她早点去睡觉，\n这样明天她精力充沛。",
+          "hint": "früh schlafen gehen / morgen fit sein",
+          "a": "Sie geht früh schlafen,\ndamit sie morgen fit ist.",
+          "note": null
+        },
+        {
+          "q": "托马斯每天练习，\n这样他能参加马拉松。",
+          "hint": "trainieren / Marathon laufen können",
+          "a": "Thomas trainiert jeden Tag,\ndamit er den Marathon laufen kann.",
+          "note": null
+        },
+        {
+          "q": "我把一切都记下来，\n这样我什么都不会忘记。",
+          "hint": "alles aufschreiben / nichts vergessen",
+          "a": "Ich schreibe mir alles auf,\ndamit ich nichts vergesse.",
+          "note": null
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "dass vs. damit — 辨析",
+      "grammar": "dass → 说明「内容」\n  问：他说/觉得/知道什么？\ndamit → 说明「目的」\n  问：他做这件事为了什么？\n两者从句动词都在句末。\n判断口诀：\n  内容用 dass，目的用 damit",
+      "exCN": "我很高兴，你在这里。\n（dass：感受的内容）",
+      "exDE": "Ich bin froh, dass du hier bist.\n≠ damit（不是目的！）",
+      "exercises": [
+        {
+          "q": "选 dass 或 damit：\n我确信，天气明天会好转。",
+          "hint": "感受内容 → dass",
+          "a": "Ich bin sicher,\ndass das Wetter morgen besser wird.",
+          "note": "dass：表达感受的内容"
+        },
+        {
+          "q": "选 dass 或 damit：\n她工作努力，\n为了她的孩子能上大学。",
+          "hint": "目的，主语不同 → damit",
+          "a": "Sie arbeitet viel,\ndamit ihre Kinder studieren können.",
+          "note": "damit：目的，主语不同"
+        },
+        {
+          "q": "选 dass 或 damit：\n我服了药，\n为了咳嗽快点好。",
+          "hint": "目的，主语不同 → damit",
+          "a": "Ich nehme die Tropfen,\ndamit der Husten weggeht.",
+          "note": "damit：目的，主语不同"
+        },
+        {
+          "q": "选 dass 或 damit：\n我很遗憾，\n我没能来看你。",
+          "hint": "感受内容 → dass",
+          "a": "Es tut mir leid,\ndass ich dich nicht besucht habe.",
+          "note": "dass：表达遗憾的内容"
+        },
+        {
+          "q": "选 dass 或 damit：\n我们早点出发，\n这样能准时到达。",
+          "hint": "目的 → damit",
+          "a": "Wir fahren früh ab,\ndamit wir pünktlich ankommen.",
+          "note": "damit：目的"
+        },
+        {
+          "q": "选 dass 或 damit：\n我很高兴，你又好起来了。",
+          "hint": "感受内容 → dass",
+          "a": "Ich freue mich,\ndass du wieder gesund bist.",
+          "note": "dass：表达高兴的内容"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "综合自由练习",
+      "grammar": "综合运用 dass 和 damit：\ndass → 谁说/觉得/知道什么内容\ndamit → 做这件事为了什么目的\n⚠️ 两者从句动词都在句末！",
+      "exCN": "我认为，学外语很重要。",
+      "exDE": "Ich denke,\ndass Fremdsprachen lernen wichtig ist.",
+      "exercises": [
+        {
+          "q": "我认为，\n学外语对每个人都很重要。",
+          "hint": "dass / wichtig für jeden",
+          "a": "Ich denke,\ndass Fremdsprachen lernen für jeden wichtig ist.",
+          "note": null
+        },
+        {
+          "q": "我们说德语，\n这样你可以练习一下。",
+          "hint": "damit / ein bisschen üben können",
+          "a": "Wir sprechen Deutsch,\ndamit du ein bisschen üben kannst.",
+          "note": null
+        },
+        {
+          "q": "玛丽说，\n她明天不能来了。",
+          "hint": "dass / morgen nicht kommen können",
+          "a": "Maria sagt,\ndass sie morgen nicht kommen kann.",
+          "note": null
+        },
+        {
+          "q": "我给你发消息，\n这样你不用等我。",
+          "hint": "damit / nicht auf mich warten müssen",
+          "a": "Ich schreibe dir eine Nachricht,\ndamit du nicht auf mich warten musst.",
+          "note": null
+        },
+        {
+          "q": "太棒了，\n汉娜有一个好主意。",
+          "hint": "Es ist toll / dass / eine gute Idee",
+          "a": "Es ist toll,\ndass Hanna eine gute Idee hat.",
+          "note": null
+        },
+        {
+          "q": "爸爸早点回家，\n这样孩子们能见到他。",
+          "hint": "damit / früh nach Hause / sehen können",
+          "a": "Der Vater kommt früh nach Hause,\ndamit die Kinder ihn sehen können.",
+          "note": null
+        },
+        {
+          "q": "我很高兴，\n你喜欢这份礼物。",
+          "hint": "Ich freue mich / dass / das Geschenk gefallen",
+          "a": "Ich freue mich,\ndass dir das Geschenk gefällt.",
+          "note": "gefallen + Dativ"
+        },
+        {
+          "q": "我把灯开着，\n这样你回来时能看清楚。",
+          "hint": "damit / das Licht anlassen / sehen können",
+          "a": "Ich lasse das Licht an,\ndamit du sehen kannst, wenn du zurückkommst.",
+          "note": null
+        }
+      ]
+    }
+  ]
+}
